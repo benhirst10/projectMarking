@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<studentlist>
+  <student uid="edb3" forenames="Earle" surname="Basra" candidate_number="050442755" degreecode="BSCOSCO"/>
+  <student uid="jb374" forenames="John" surname="Bates" candidate_number="082187107" degreecode="BSCOSCO"/>
+  <student uid="kc105" forenames="Krishan" surname="Challa" candidate_number="081940945" degreecode="BSCOSCO/S"/>
+  <student uid="lc167" forenames="Luke" surname="Challiflour" candidate_number="081936074" degreecode="BSCOSCO"/>
+  <student uid="gc100" forenames="George" surname="Charalambous" candidate_number="074878709" degreecode="BSCOSCO"/>
+  <student uid="tjc21" forenames="Thomas James" surname="Collop" candidate_number="081948818" degreecode="BSCOWMJ"/>
+  <student uid="yd21" forenames="Yusuf" surname="Daud" candidate_number="084967228" degreecode="BSCOSCO"/>
+  <student uid="dd69" forenames="Dipak" surname="Devalia" candidate_number="071633408" degreecode="BSCOWMN"/>
+  <student uid="nd79" forenames="Nihal" surname="Dhillon" candidate_number="070938676" degreecode="BSCOSCO"/>
+  <student uid="tg75" forenames="Thomas" surname="Gransden" candidate_number="081100549" degreecode="BECOSCG"/>
+  <student uid="ch215" forenames="Charalambos" surname="Hadjifilippou" candidate_number="074831896" degreecode="BSCOSCO"/>
+  <student uid="ah286" forenames="ANDREAS" surname="HADJITTOFIS" candidate_number="094559662" degreecode="BSCOSCO"/>
+  <student uid="ah252" forenames="Amber" surname="Hall" candidate_number="082482415" degreecode="BSCOSCO/S"/>
+  <student uid="nh111" forenames="Nusrat" surname="Hanif" candidate_number="086239040" degreecode="BSCOWMJ"/>
+  <student uid="jh352" forenames="Jai" surname="Harrison" candidate_number="082441962" degreecode="BSCOSCO"/>
+  <student uid="mh190" forenames="Metehan" surname="Hasanoglu" candidate_number="069014079" degreecode="BSCOWMJ"/>
+  <student uid="ch194" forenames="Carly" surname="Hill" candidate_number="071457882" degreecode="BSCOSCO"/>
+  <student uid="oi7" forenames="Oliver" surname="Imbush" candidate_number="082472999" degreecode="BSCOSCO"/>
+  <student uid="ai63" forenames="Anastasia" surname="Ioannou" candidate_number="074615768" degreecode="BSCOSCO"/>
+  <student uid="bj31" forenames="Ben" surname="Jackson" candidate_number="083002261" degreecode="BSCOSCG"/>
+  <student uid="dj45" forenames="David" surname="Jacobs" candidate_number="072947928" degreecode="BSCOSCO"/>
+  <student uid="jj96" forenames="Jerany" surname="Jeeyarajasingham" candidate_number="084322715" degreecode="BSCOWMJ"/>
+  <student uid="tjj12" forenames="THOMAS JAMES" surname="JINKS" candidate_number="095152879" degreecode="BSCOSCG"/>
+  <student uid="sk344" forenames="Savvas" surname="Koualis" candidate_number="084302348" degreecode="BSCOSCO"/>
+  <student uid="al211" forenames="Antonis" surname="Lambrianides" candidate_number="073393380" degreecode="BSCOSCO"/>
+  <student uid="aal9" forenames="Aaron Anthony" surname="Lodge" candidate_number="082122980" degreecode="BSCOSCG"/>
+  <student uid="dm139" forenames="Daniel" surname="Maddock" candidate_number="052671764" degreecode="BSCOSCO"/>
+  <student uid="sm485" forenames="Simangaliso" surname="Masuku" candidate_number="082918512" degreecode="BSCOWMJ"/>
+  <student uid="gm145" forenames="Gervy" surname="Mbuyi" candidate_number="073347006" degreecode="BSCOSCG"/>
+  <student uid="tm141" forenames="Tamish" surname="Mehra" candidate_number="085140385" degreecode="BSCOSCO"/>
+  <student uid="dm181" forenames="Daniel" surname="Morrison" candidate_number="072676659" degreecode="BECOSCG"/>
+  <student uid="sn133" forenames="Sanjay" surname="Naker" candidate_number="080957777" degreecode="BSCOWMJ"/>
+  <student uid="yso2" forenames="Yewande Simisola" surname="Olagbaju" candidate_number="085497728" degreecode="BSCOWMJ"/>
+  <student uid="oo46" forenames="Oluwafunmilayo" surname="Osoba" candidate_number="080955407" degreecode="BSCOWMJ"/>
+  <student uid="rp187" forenames="Rakesh" surname="Patel" candidate_number="084059213" degreecode="BSCOSCO"/>
+  <student uid="jp208" forenames="Jonathan" surname="Pike" candidate_number="081317192" degreecode="BSCOSCO"/>
+  <student uid="sp315" forenames="Shane" surname="Pike" candidate_number="083387401" degreecode="BSCOSCO"/>
+  <student uid="cp199" forenames="Christopher" surname="Pole" candidate_number="083199066" degreecode="BSCOSCO"/>
+  <student uid="mp318" forenames="Marios" surname="Prokopiou" candidate_number="080716439" degreecode="BSCOSCO"/>
+  <student uid="mhr6" forenames="Minhaal" surname="Rajani" candidate_number="074747645" degreecode="BSCOSCO"/>
+  <student uid="as487" forenames="Andreas" surname="Shalhoub" candidate_number="073618858" degreecode="BSCOSCO"/>
+  <student uid="ds238" forenames="Dilbag" surname="Singh" candidate_number="082918453" degreecode="BSCOWMJ/S"/>
+  <student uid="ls189" forenames="Luke" surname="Southgate" candidate_number="082530749" degreecode="BSCOSCO"/>
+  <student uid="bt47" forenames="Bhavin" surname="Tailor" candidate_number="071820721" degreecode="BSCOSCO"/>
+  <student uid="kt107" forenames="Katherine" surname="Taylor" candidate_number="071045494" degreecode="BSCOWMJ"/>
+  <student uid="pv36" forenames="Panagioutis" surname="Valanides" candidate_number="083158487" degreecode="BSCOSCO"/>
+</studentlist>

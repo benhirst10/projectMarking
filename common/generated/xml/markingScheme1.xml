@@ -1,0 +1,261 @@
+<markingScheme modcode="Final Year Project">   
+  <assessments intake='postgraduate'> 
+    
+    <assessment id='Diaries' weighting='5'>
+      <component id='diary1'>
+        <description>Diary 1</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>
+      </component>
+      <component id='diary2'>
+        <description>Diary 2</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>
+      </component>
+      <component id='diary3'>
+        <description>Diary 3</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>        
+      </component>
+      <component id='diary4'>
+        <description>Diary 4</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>        
+      </component>
+      <component id='diary5'>
+        <description>Diary 5</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>        
+      </component>
+      <component id='diary6'>
+        <description>Diary 6</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>        
+      </component>
+      <component id='diary7'>
+        <description>Diary 7</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>         
+      </component>
+      <component id='diary8'>
+        <description>Diary 8</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>         
+      </component>
+      <component id='diary9'>
+        <description>Diary 9</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>         
+      </component>
+      <component id='diary10'>
+        <description>Diary 10</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>         
+      </component>
+      <component id='diary11'>
+        <description>Diary 11</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>         
+      </component>
+      <component id='diary12'>
+        <description>Diary 12</description>
+        <mark>
+            <choice val='1'>Satisfactory</choice>
+            <choice val='-1'>Unsatisfactory</choice>
+        </mark>         
+      </component>
+      <component id='overallComments' weighting='1'>
+        <description>Overall comments for student</description>
+        <markingGuide>Did the student have a diligent attitude towards the project?&lt;br/&gt; Was the student active in meetings (understanding the problem, organizing her/his work, asking for advice, identifying lack of knowledge,.)?&lt;br/&gt; Did the student give evidence of reflection on the progress of the project on a regular basis (project plan, how to develop tasks.)?&lt;br/&gt; Did the student submit deliverables and work in progress to the SVN repository on a regular basis?</markingGuide>
+        <feedback heading='Diaries' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment>
+    
+    <assessment id='Project Description'>
+     <component id='title' replaceProjectTitle='true'>
+        <description>Title</description>
+        <feedback heading='Title' style='textarea'/>
+      </component>
+      <component id='studentComments'>
+        <description>Comments for student</description>
+        <markingGuide>Do requirements/objectives cover relevant learning outcomes of the corresponding MSc programme?&lt;br/&gt; Do challenges involve critical thinking and problem-solving at MSc level, information analysis and background research?</markingGuide>
+        <feedback heading='Student Comments' style='textarea'/>        
+      </component>
+      <component id='projectDescription'>
+        <description>Project Description</description>
+        <mark>
+            <choice val='1'>Pass</choice>
+            <choice val='-1'>Fail</choice>
+        </mark>         
+      </component>   
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>         
+    </assessment>
+    
+    <assessment id='Preliminary Report' weighting='5'>
+      <component id='prelimReport' weighting='1'>
+        <description>Comments for student</description>
+        <markingGuide>Is the motivation of the project convincing?&lt;br/&gt; Do aims give an informative summary of the project?&lt;br/&gt; Are objectives clearly identified?&lt;br/&gt; Are they realistic?&lt;br/&gt;Has the relevent background material been identified, well-reviewed and summarized?&lt;br/&gt; Has the student found other relevant sources of information on her/his own?&lt;br/&gt;Is the plan sufficiently detailed and realistic?&lt;br/&gt; Has the student set milestones specific to her/his project (apart from the project deliverables)?</markingGuide>
+        <feedback heading='Student Comments' style='textarea'/>                
+        <mark>        
+            <numeric outof='100'/>                
+        </mark>
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>         
+    </assessment>
+    
+    <assessment id='Milestone 1'>
+      <component id='milestone1'>
+        <description>Comments for student</description>
+        <markingGuide>Was the student able to explain the skills that were needed to develop the project?&lt;br/&gt; Did (s)he show evidence that tools/techniques/theories have been learnt to acquire such skills?&lt;br/&gt; Is the student fully aware of the scope of the project?&lt;br/&gt;</markingGuide>
+        <feedback heading='Student Comments' style='textarea'/>                        
+        <mark>
+            <choice val='1'>Pass</choice>
+            <choice val='0'>Borderline</choice>
+            <choice val='-1'>Fail</choice>
+        </mark>         
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>         
+    </assessment>
+    
+    <assessment id='Interim Report' weighting='5'>
+      <component id='interimReport' weighting='1'>
+        <description>Comments for student</description>
+        <markingGuide>Are project aims, objectives and challenges carefully described and thought through?&lt;br&gt;Has the literature survey been completed?&lt;br/&gt;Is the survey the result of a critical analysis of information or is it just an enumeration of features?&lt;br/&gt;For type I: Are requirements specification and design developed and sufficiently clear?&lt;br/&gt;For type II: Is the problem statement complete? Is the approach and solution proposed detailed enough?&lt;br/&gt;For type III: Is the problem statement complete? Is the solution proposed detailed enough?&lt;br/&gt;Is there a clear evaluation strategy to measure project objectives?&lt;br/&gt;Is there a critical evaluation of the progress that has been made?&lt;br/&gt;Is there a discussion on how challenges have been addressed?&lt;br/&gt;Is the plan detailed and realistic?&lt;br/&gt;Has the initial plan been refined?&lt;br/&gt;Is the remaining work clearly identified?&lt;br/&gt;Is the outline of the dissertation detailed enough?</markingGuide>
+        <feedback heading='Student Comments' style='textarea'/>     
+        <mark>                            
+            <numeric outof='100'/>                
+        </mark>
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>         
+    </assessment>
+    
+    <assessment id='Milestone 2'>
+      <component id='milestone2'>
+        <description>Comments for student</description>
+        <markingGuide>Can the student explain what are the main challenges in the project and how they have been tackled?&lt;br/&gt; Is the prototype/solution mature enough?&lt;br/&gt; Is the student completely aware of all the tasks that remain to be developed?&lt;br/&gt; Are the remaining tasks achievable?&lt;br/&gt; Is the student following the work plan?</markingGuide>
+        <feedback heading='Student Comments' style='textarea'/>                                
+        <mark>
+            <choice val='1'>Pass</choice>
+            <choice val='0'>Borderline</choice>
+            <choice val='-1'>Fail</choice>
+        </mark>         
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>         
+    </assessment>
+    
+    <assessment id='Dissertation Draft' excludeFromSpread='true'>
+      <component id='dissertationDraft'>
+        <description>Comments for student</description>
+        <feedback heading='Student Comments' style='textarea'/>                                        
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>         
+    </assessment>
+    
+    <assessment id='Dissertation and Viva' weighting='85'>
+      <component id='core' weighting='60'>
+        <description>Core</description>
+        <markingGuide>Type I: Does the software meet the requirements?&lt;br/&gt; Is the development methodology described?&lt;br/&gt; Are the software architecture, application design, implementation and testing described in detail?&lt;br/&gt;Type II: Have the problems that the project aims to address been solved in an elegant way?&lt;br/&gt; Are the problem statement, presentation of the approach and solution clearly presented?&lt;br/&gt;Type III: Is the approach original?&lt;br/&gt; Are the problem statement and the description of the solution clearly presented?&lt;br/&gt; Have experiments been carried out?&lt;br/&gt; Are the results obtained substantial and sound?</markingGuide>
+        <feedback heading='Core' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>        
+      </component>
+      <component id='viva' weighting='15'>
+        <description>Viva</description>
+        <markingGuide>Was the presentation well organized?&lt;br/&gt; Was it given at the right level of detail (informative but without being unnecessary complex)? &lt;br/&gt; Was time taken into account?&lt;br/&gt;Did the student speak fluently and clearly, without excessive recourse to notes?&lt;br/&gt; Did he/she use the right level of technical language (sufficiently technical but without excessive use of acronyms)?&lt;br/&gt; Did the student make good use of available technologies?&lt;br/&gt;Did the student respond well to questioning by providing relevant information?&lt;br/&gt;Did the student demonstrate the work that has been carried out during the project?&lt;br/&gt;</markingGuide>
+        <feedback heading='Viva' style='textarea'/>                                        
+        <mark>                  
+            <numeric outof='100'/>                     
+        </mark>
+      </component>
+      <component id='backgroundMateralLiterature' weighting='10'>
+        <description>Background material and literature survey</description>
+        <markingGuide>Was the background material well covered and presented?&lt;br/&gt; Is the literature survey the result of a critical analysis of information or is it just an enumeration of items/references?&lt;br/&gt; Are the background material and literature survey related to the project?</markingGuide>
+        <feedback heading='Background material and literature survey' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>
+      </component>
+      <component id='evaluation' weighting='10'>
+        <description>Evaluation of Results</description>
+        <markingGuide>Do the conclusions cover what has been done?&lt;br/&gt; Has the student discussed how the main challenges of the project have been addressed?&lt;br/&gt; Have the main results of the project been compared to other approaches?&lt;br/&gt; Have limitations/drawbacks of the approach been discussed? Has the student proposed further improvements/suggestions?</markingGuide>
+        <feedback heading='Evaluation of Results' style='textarea'/>   
+        <mark>                                                
+            <numeric outof='100'/>                     
+        </mark>
+      </component>
+      <component id='layout' weighting='5'>
+        <description>Dissertation layout</description>
+        <markingGuide>Is the dissertation well written and organized (this includes formatting, structure, bibliography, cross-references, language, abstract, table of contents)?&lt;br/&gt; Is it clear and direct?</markingGuide>
+        <feedback heading='Disseration layout' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>        
+    </assessment>
+    
+    <assessment id='Further Recommendations' excludeFromSpread='true' excludeFromStudentAvailability='true'>
+      <component id='recommendations'>
+          <description>Student Recommendations</description>
+          <feedback heading='Student Recommendations' staffonly='true' style='textarea'/>
+      </component>      
+      <component id='finalEval'>
+          <description>Final Evaluation</description>
+          <feedback heading='Final Evaluation' staffonly='true' style='textarea'/>
+      </component>      
+    </assessment>
+  </assessments> 
+  
+</markingScheme>
+

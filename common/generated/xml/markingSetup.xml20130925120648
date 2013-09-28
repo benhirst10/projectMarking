@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markingSetup>
+  <supervisors>
+    <supervision supervisor="bmh2" student="std1" project="3afad1cf4fbb56906aded3563273e335" secondmarker="jlb" hide=""/>
+    <supervision supervisor="jlb" student="std2" project="ce6ff05c3908c150f4970fcf5309ca7a" secondmarker="dd" hide=""/>
+    <supervision supervisor="bmh2" student="std3" project="fd574f6c357e5593fa55a223665032f8" secondmarker="bmh2" hide=""/>
+    <supervision supervisor="srh" student="std4" project="b994189a72d48bbbc56c0a39d1c0c40e" secondmarker="srh" hide=""/>
+  </supervisors>
+</markingSetup>

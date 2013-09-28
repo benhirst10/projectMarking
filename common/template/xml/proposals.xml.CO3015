@@ -1,0 +1,1731 @@
+<projects>
+<project label="ab220ef4498aff1e5a7b8f39c9be664b">
+  <title>An application for verifying requirements over software artifacts</title>
+  <supervisor>
+    <ab373 />
+  </supervisor>
+  <prerequisites><p>A good understanding of OO-programming. </p></prerequisites>
+  <aims><p><a href="http://en.wikipedia.org/wiki/Model-driven_engineering">Model-driven engineering</a>is a successor paradigm of object-oriented programming, where models are collections of objects that represent software artifacts, such as java programs, relational schemas in databases, UML models (class diagrams, activity diagrams...), etc. Models play a crucial role in a software development process since they are used to design the requirements of an application enhancing automatic code generation, increasing productivity and reducing costs. Therefore, providing mechanisms to guarantee that models are correct with regard application requirements are important. In this project, the student will learn model-driven development techniques based on the<a href="http://www.eclipse.org/modeling/emf/">Eclipse Modeling Framework</a>to define models and to verify the correctness of requirements with the Object Constraint Language (OCL). The aim of the project is to build an application in Eclipse that reuses libraries for defining EMF models and for evaluating OCL queries. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas:<ul><li>metamodelling techniques for defining modelling languages (metamodels) and models</li><li>use of EMF and OCL</li><li>develop an application that enables the validation of requirements over EMF models</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will learn:<ul><li>to specify the requirements of an application, to design a system, to develop an application and to test it</li><li>model-driven development techniques and tools: EMF, OCL</li><li>development of Eclipse plug-ins</li><li>techniques for checking the correctness of software artifacts</li> </ul> </p></learning-outcomes>
+  <end-product><p>Eclipse plugin that provides an interface for checking OCL constraints and for querying EMF models. </p></end-product>
+  <timetable>
+    <semester1><ul><li>Study of model-driven development techniques: EMF and OCL</li><li>Specification, design and development of an initial prototype for checking OCL invariants over EMF models in a generic way</li> </ul></semester1>
+    <semester2><ul><li>Development of an application for verifying models with OCL constraints and for reporting errors</li><li>Development of a user-friendly interface for evaluating OCL constraints over EMF models</li><li>Development of a user-friendly interface for querying OCL constraints over EMF models</li><li>Specification, design and development of a complete prototype for checking OCL invariants over EMF models</li> </ul></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="dfb4b64ea777e3da350b3ed7159f704e">
+  <title>Book order system</title>
+  <supervisor>
+    <ab373 />
+  </supervisor>
+  <hidden>hidden by Artur</hidden>
+  <prerequisites><p>A good understanding of OO-programming and web applications. </p></prerequisites>
+  <aims><p>Design, develop and test an application for ordering books. The system will consist of two main subsystems: administration system and user system. The administration system provides: budget administration, email management to send notifications to people involved in a purchase, log of purchased books and support for statistics. The user system is a web application system that permits the creation of book orders. Every time a book is ordered, the order appears in the administration system so that the administrator confirms the order. When a book is ordered, budget information should be kept updated. Statistic information will report figures about types of books that have been purchased. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas:<ul><li>development of distributed systems</li><li>specification, design and development of an application with several subsystems</li><li>datamining techniques for showing statistics</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will learn:<ul><li>carry out a detailed requirements analysis and specification of the problem.</li><li>produce an object-oriented design of a software system to implement</li><li>development of distributed systems</li><li>produce informative reports and statistics</li> </ul> </p></learning-outcomes>
+  <end-product><p>Software as described above. </p></end-product>
+  <timetable>
+    <semester1><ul><li>Specification, design and development of an initial prototype for ordering books</li> </ul></semester1>
+    <semester2><ul><li>Email management</li><li>Report generation</li><li>Budget administration</li> </ul></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="354a67f5e4d49471af86669a6209c98f">
+  <title>Email scheduler</title>
+  <supervisor>
+    <ab373 />
+  </supervisor>
+  <prerequisites><p>A good understanding of OO-programming. </p></prerequisites>
+  <aims><p>Development of a tool for planning and organizing emails that can be scheduled. The tool will provide mechanisms to define email contacts and groups, to schedule emails and to organize them. A common scenario would be: the user plans to send an email to a group of friends on 20th Dec 2009 and 25 Dec 2009, when the date arrives the email is automatically send and the user is notified, the system keeps track of emails that have been sent so that they can be reused. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas:<ul><li>specification and design of a user friendly tool for organizing and sending emails</li><li>tools for job scheduling</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will learn:<ul><li>to specify the requirements of an application, to design a system, to develop an application and to test it</li><li>human-computer interaction techniques</li><li>job scheduling</li> </ul> </p></learning-outcomes>
+  <end-product><p>Email organizer and scheduler as explained above. </p></end-product>
+  <timetable>
+    <semester1><ul>
+        <li>Research on approaches for scheduling emails</li>
+        <li>Specification, design and development of an initial prototype for organizing contacts and scheduling emails</li>
+    </ul> </semester1>
+    <semester2><ul>
+        <li>Specification, design, development and testing of a complete prototype for organizing and planning emails, including log facilities and import/export mechanisms.</li>
+    </ul> </semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="3afad1cf4fbb56906aded3563273e335">
+  <title>Generation of programming environments - Open to students</title>
+  <supervisor>
+    <ab373 />
+  </supervisor>
+  <prerequisites><p>Good background in Java and UML (class diagrams and object diagrams). </p></prerequisites>
+  <aims><p>Model-Driven Development (MDD) is a new paradigm to develop software in a semi-automatic way. In a MDD approach, Code is represented by means of models (usually UML diagrams) from which many different tasks can be automated: reverse engineering, refactoring, automatic code generation or generation of other software artifacts (other models). This paradigm has received the attention of the big software companies, such as IBM (<a href="http://www.eclipse.org/modeling/">Eclipse Modeling Project</a>) or Microsoft (<a href="http://msdn.microsoft.com/en-us/library/bb126235.aspx">DSL Tools</a>), in the last years. </p><p>The goal of this project consists in generating a model-based programming environment for a programming language. This involves: </p><ul><li>Automatic generation of parsers and programming environments for the<a href="http://www.eclipse.org">Eclipse platform</a>by using<a href="http://www.openarchitectureware.org/">openArchitectureWare</a></li><li>Automatic generation of code by using<a href="http://www.eclipse.org/articles/Article-JET/jet_tutorial1.html">JET</a>, or similar technology.</li><li>Other features that student may add.</li> </ul><p>The programming language of interest is chosen by the student. </p></aims>
+  <challenges><p>This project offers many challenges that will lead the student to the last trends in industrial software development. Some of them are listed as follows: </p><ul><li>Understanding MDD and how it increases the productivity in the software development.</li><li>Use of the experimental openArchitectureWare framework.</li><li>Understanding of the Eclipse platform.</li> </ul></challenges>
+  <learning-outcomes><p> </p><ul><li>Learn about MDD, metamodeling, automated generation of parsers and compilers.</li><li>Use of UML class diagrams for metamodeling.</li><li>Gain experience in languages and tools currently used in MDD.</li><li>Get an insight into scientific and industry-oriented research.</li><li>Get experience with the development of plugins for the Eclipse platform.</li> </ul></learning-outcomes>
+  <end-product><p>Eclipse-based programming environment for a given language. </p></end-product>
+  <timetable>
+    <semester1><p>Study and experimentation with: Eclipse Modeling Framework, openArchitectureWare (language xText) and JET. First prototype. </p></semester1>
+    <semester2><p>Complete prototype, examples and report. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="83d4c0168e05dbbd4d62a5df712ed87b">
+  <title>Mind map: a tool for representing ideas</title>
+  <supervisor>
+    <ab373 />
+  </supervisor>
+  <prerequisites><p>A good understanding of OO-programming. </p></prerequisites>
+  <aims><p>A<a href="http://en.wikipedia.org/wiki/Mind_map">mind map</a>is a diagram used to represent words, ideas, tasks, or other items linked to and arranged around a central key word or idea. Mind maps are used to generate, visualize, structure, and classify ideas, and as an aid in study, organization, problem solving, decision making, and writing. The aim of this project is to develop a graphical tool for representing and organizing ideas in a discussion meeting. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas:<ul><li>design of a user friendly tool for sharing knowledge</li><li>use of graphical libraries in an efficient way</li><li>definition of a modeling language for defining mind maps</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will learn:<ul><li>to specify the requirements of an application, to design a system, to develop an application and to test it</li><li>to use graphical libraries for defining graphs</li><li>human-computer interaction techniques</li><li>to define and develop an editor for a graphical modeling language</li>  <li>modeling techniques</li></ul> </p></learning-outcomes>
+  <end-product><p>Graphical editor for defining mind maps as described above. </p></end-product>
+  <timetable>
+    <semester1><ul><li>Research on approaches for defining mind maps</li><li>Research on graphical libraries for representing graphs</li><li>Specification, design and development of an initial prototype for defining mind maps</li> </ul></semester1>
+    <semester2><ul><li>Development of a modeling language for defining mind maps</li><li>Specification, design and development of a complete prototype for defining mind maps, importing and exporting them</li> </ul></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="8e9dac076e66b6896cbbf9fdd4fe477d">
+  <title>Software evolution: a tool for mapping software artifacts</title>
+  <supervisor>
+    <ab373 />
+  </supervisor>
+  <prerequisites><p>A good understanding of OO-programming. </p></prerequisites>
+  <aims><p>Software applications are evolving constantly and mechanisms to perform changes and to track them help in maintaining applications. For instance, when a relational schema is defined from a class diagram the correspondences between the elements in both the class diagram and the relational schema could be tracked by means of mappings so that if a class is modified we can easily find out which table needs to be updated. The aim of this project is to provide a graphical mapping tool to enhance software evolution. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas:<ul><li>software evolution and change propagation</li><li>model-driven development techniques for defining software artifacts</li><li>graphical visualization of mappings</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will learn:<ul><li>to specify the requirements of an application, to design a system, to develop an application and to test it</li><li>techniques for software evolution and change propagation</li><li>use graphical libraries for implementing user-friendly tools</li><li>model-driven development techniques for representing software artifacts</li> </ul> </p></learning-outcomes>
+  <end-product><p>Graphical tool for mapping software artifacts. </p></end-product>
+  <timetable>
+    <semester1><ul><li>Study model-driven development techniques for representing software artifacts: metamodeling techniques, XML, Eclipse Modeling Framework/Microsoft DSL tools/Microsoft Oslo</li><li>Specification, design and development of an initial prototype for mapping software artifacts</li> </ul></semester1>
+    <semester2><ul><li>Development of a language for defining mappings to keep track of changes.</li><li>Specification, design, development and testing of a complete graphical environment for mapping software artifacts and to traverse mappings.</li> </ul></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="fd574f6c357e5593fa55a223665032f8">
+  <title>Visual Zoom over Software Application Code</title>
+  <supervisor>
+    <ab373 />
+  </supervisor>
+  <prerequisites><p>A good understanding of OO-programming. </p></prerequisites>
+  <aims><p>Software artifacts in industrial applications can consist of thousands of code files. To enhance software maintenance of such applications techniques to abstract essential information from code are crucial. The aim of the project is to define a graphical visualizer for representing java or c# code files (classes) and their relationships (references between classes). Zoom facilities should be provided in order to hide/add information: encapsulate clusters of highly cohesive classes (classes with many references among them), isolated nodes, etc. </p>
+  
+  <p>Either .NET or java technology can be used.</p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas:<ul><li>graphical representation techniques</li><li>code parsers</li><li>code representation</li><li>algorithm for zooming</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>carry out a detailed requirements analysis and specification of the problem.</li><li>produce an objected-oriented design of a software system to implement</li><li>learn about human computer interaction</li><li>learn about visual representation techniques</li> </ul> </p></learning-outcomes>
+  <end-product><p>A graphical editor for representing programs with zoom facilities </p></end-product>
+  <timetable>
+    <semester1><ul><li>Explore graphical techniques based on .NET or java</li><li>Explore techniques for representing programs: parsers, regular expressions</li><li>Specification, design, implementation and testing of a first prototype</li> </ul></semester1>
+    <semester2><ul><li>Explore techniques for zooming</li><li>Define algorithm for zooming: decide which information to show/hide</li><li>Complete specification, design, implementation and testing of the prototype</li> </ul></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="cfe3584be18dee6635a7a792a11a1553">
+  <title>A Prolog Debugger</title>
+  <supervisor>
+    <ak155 />
+  </supervisor>
+  <prerequisites><p>CO2014. Good programming skills. </p></prerequisites>
+  <aims><p>SWI-Prolog provides a command `trace' that allows to trace the execution of a goal. The aim of the project is to write a program that converts the output of `trace' into an SLD-tree. There should also be a graphical user interface that enables the use of SLD-trees for the debugging of Prolog programs. </p></aims>
+  <challenges><p>Deeper understanding of logic programming, debugging and testing. </p></challenges>
+  <learning-outcomes><p>Deeper understanding of logic programming, debugging and testing. </p></learning-outcomes>
+  <end-product><p>A basic Prolog debugger. </p></end-product>
+  <timetable>
+    <semester1><p>Understanding how to draw trees and how to transform the output of trace. Design of the system. </p></semester1>
+    <semester2><p>Implementation. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="7969328109cb172055efb1ff0a5aaeb6">
+  <title>Autonomous Web Agents</title>
+  <supervisor>
+    <ak155 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm for an application area of your choice. Good programming skills. Knowledge of Linux. </p></prerequisites>
+  <aims><p>Due to the increasing amount of information available in the world wide web, there is a need for software that assists the user by autonomously performing routine (and more sophisticated) information retrieval. One of the difficulties comes from the fact that there is not a unique standard for data in the WWW. Another point is that the agents should not only search for information, but evaluate it, take autonomous actions, and notify the user only in cases of interest (which would, ideally, include learning mechanisms to continuously adapt to the users preferences extracted e.g. from the user's browsing behaviour). A simple application would be an agent that maintains a list of authors, checks their homepages for new publications, and downloads them. One refinement would be that the agent extracts an abstract or keywords and presents them to the user before downloading. More advanced agents should also be able to learn and adapt to user behaviour. For example, the agent could monitor the browsing behaviour of its user and automatically update the list of authors to be checked. Other applications could be to check stock market prices (and perhaps even do trading); to scan news (or other kind of) sources and extract useful information; a travel agent that find cheapest flights; etc. </p><ol><li>Research into web agents.</li><li>Learn how to program simple agents.</li><li>Implement a more advanced example along the lines of the one presented above.</li></ol></aims>
+  <challenges>Challenges vary with the particular application chosen.</challenges>
+  <learning-outcomes><p>The student will understanding notions such as semantic web, web-services, ontologies, intelligent web agents and have an idea of the future of the world wide web. </p></learning-outcomes>
+  <end-product><p>A program that is able to perform automatic information retrieval in the WWW, specialised to some specific application area of your choice. </p></end-product>
+  <timetable>
+    <semester1><p>See 1 and 2 above. </p></semester1>
+    <semester2><p>See 3 above. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+     <project label="project-9" >
+    <title> Chess Computer Player.
+    </title>
+    
+    <supervisor><ak155/></supervisor>
+    
+    <prerequisites> <p> Good programming skills in C/C++ or
+    Java.</p>
+    </prerequisites>
+    
+    <aims>
+      <p> To write a chess program, using simple heuristics and
+      otherwise exploring `brute force' the game tree.</p>
+    </aims>
+
+      <challenges> To write a substantial program. Possible
+         extensions may contain: A server to play chess over the
+         internet or strengthening the computer player by improving
+         implementation and heuristics. 
+      </challenges>
+
+    <timetable>
+      <semester1>
+        <p> A basic computer player. </p> 
+      </semester1>
+      <semester2>
+        <p> Adding extensions. (MinMax, alpha-beta pruning)</p> 
+      </semester2>
+    </timetable>
+      </project>
+ 
+     
+<project label="cc7098451e7115d14b802e85706bf247">
+  <title>Depth First Search Algorithms and Applications</title>
+  <supervisor>
+    <ak155 />
+  </supervisor>
+  <prerequisites><p>You are a good programmer and like sophisticated algorithms. </p></prerequisites>
+  <aims><p>In a famous 1972 paper (Siam Journal on Computing, 1:146-160), Robert Tarjan described several algorithms based on a simple depth first traversal of a graph. For example, he gives a linear time algorithm to discover all strongly connected components of a graph. This algorithm is crucial, for example, to some state-of-the-art model checking techniques. The aims of the project include: </p><p><ol><li>Understand and explain (some of) the algorithms of the original paper.</li><li>Implement (some or one of) the algorithms.</li><li>Apply (some or one of) the algorithms to the solution of some problem (as eg model checking).</li></ol> </p></aims>
+  <challenges><p>Understanding a research paper and implementing some sophisticated algorithms. </p></challenges>
+  <learning-outcomes><p>Understanding of an important class of advanced algorithms. Understanding of an application area. Improved programming skills. </p></learning-outcomes>
+  <end-product><p>A program applying (some or one of) the algorithms to some application area. </p></end-product>
+  <timetable>
+    <semester1><p>Understanding and implementation of the algorithms. Desgin and specification of the application. </p></semester1>
+    <semester2><p>Implementation of the application. </p></semester2>
+  </timetable>
+  <references><reference>
+  <published>R. Tarjan. Siam Journal on Computing, 1:146-160, 1972 (available from the library or from Dr.Kurz)</published>
+  </reference></references>
+</project>
+<project label="29d5c69ad032d2bffb450657aca5d147">
+  <title>Free Project</title>
+  <supervisor>
+    <ak155 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm for your own project. </p></prerequisites>
+  <aims><p>To be defined by yourself in cooperation with the supervisor. </p></aims>
+  <challenges>To be defined by the supervisor according to the specific topic.</challenges>
+  <learning-outcomes></learning-outcomes>
+  <end-product></end-product>
+  <timetable>
+    <semester1><p>Prototype </p></semester1>
+    <semester2><p>Final product </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="4dfd06b842815491b953d2c2d5f673c3">
+  <title>Managing Semistructured Data</title>
+  <supervisor>
+    <ak155 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm for an application area of your choice. XML. Good programming skills. </p></prerequisites>
+  <aims><p>Relational databases are good for data that has a predetermined format. Semistructured data is data that has some structure, but this structure may change during the life of the system in unpredictable ways. An example is, of course, the world wide web. But this project is about the simpler case where a specific domain has been determined. For example, a student, or a researcher, or a teacher, or a journalist, or a secret service, will want to organise their material in a flexible way that allows for the type of data as well as their relationships to change during time. </p><ol><li>Describe your area of application and the methods you think appropriate to administrate and organise the data. Research into cognitive aspects of conceptualising a domain.</li><li>Develop a model of your application area based on XML.</li><li>Implement mechanisms that allow you to update and query the data.</li><li>Provide a graphical user interface.</li></ol></aims>
+  <challenges>To understand and partially solve the problems related to semi-structured data.</challenges>
+  <learning-outcomes><ul><li>XML.</li><li>Understanding and managing semi-structured data.</li> </ul></learning-outcomes>
+  <end-product><p>A small data base system for semi-structured data, tailored to a specific application area. </p></end-product>
+  <timetable>
+    <semester1><p>1 and 2 above and a prototype for (parts of) 3. </p></semester1>
+    <semester2><p>3 and 4. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="90ac1fe7dd14437516f115ccbac8c0a3">
+  <title>Model Checking</title>
+  <supervisor>
+    <ak155 />
+  </supervisor>
+  <prerequisites><p>You like mathematics and want to learn about logic and an application of logic in computer science. </p></prerequisites>
+  <aims><p>Model checking is a fascinating technology with a wide range of industrial applications in the verification of communication protocols. It allows to specify properties of protocols in specially designed logics, usually variants of modal and temporal logics, which are then verified automatically. </p><ol><li>Learning about LTL, linear temporal logic.</li><li>Implementing a LTL-model checker.</li></ol></aims>
+  <challenges>Learn about LTL and model checking. Understanding and implementatingadvanced state of the art algorithims.</challenges>
+  <learning-outcomes><p>Familiarity with aspects of formal methods, automatic verification of programs, temporal logic, model checking. </p></learning-outcomes>
+  <end-product><p>A basic model LTL-model checker. </p></end-product>
+  <timetable>
+    <semester1><p>See 1 above; and a prototype for 2. </p></semester1>
+    <semester2><p>See 2 above. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="0a4504aee1059249d28351cffd25474b">
+  <title>The game of Yahtzee</title>
+  <supervisor>
+    <ak155 />
+  </supervisor>
+  <prerequisites>Good programming skills, knowledge of Java or C/C++.</prerequisites>
+  <aims><p>Yahtzee is a highly addictive dice game. It can be played by any number of people. The goal is to achieve the highest score by rolling certain combinations of five dice. </p><p>The aim of the project is to create a strong computer Yahtzee player. The end-product should implement a<b>subset</b>of the following:<ol><li>A nice looking GUI and a game-playing engine which controls the players moves and evaluate their scores.</li><li>A server which allows many clients to play the game over a LAN or the Internet.</li><li>A computer player based on some ad-hoc strategy(ies) developed by the student.</li><li>A computer player based on the "near optimal" strategy proposed by O. Vancura (see the references below).</li><li>A program that "solves" the game by using retrograde analysis.</li></ol>A typical project has to include implementations of the first item together with one at least one of the others. </p></aims>
+  <challenges>To develop a good computer player.</challenges>
+  <learning-outcomes><ul><li>Design and implementation of a computer dice game.</li><li>Client-server technologies if you choose 2.</li><li>Understanding and/or developing good heuristic strategies (3 and/or 4).</li><li>Retrograde analysis if you choose 5.</li> </ul></learning-outcomes>
+  <end-product><p>A computer program as described earlier. </p></end-product>
+  <timetable>
+    <semester1><p>Research on the rules of Yahtzee and at least one of the following: client-server technologies, strategies in games, retrograde analysis. Design and implementation of the core of the system as described in 1. </p></semester1>
+    <semester2><p>Research, development and implementation of at least one of the more advanced features 2-5. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Olaf Vancura</author>
+  <volume>Advantage Yahtzee: The Official Handbook</volume>
+  <published year="2001">Huntington Press</published>
+  </reference></references>
+</project>
+<project label="e328509907c6284d5448f9c3258ff270">
+  <title>Concerrent transformations of trees</title>
+  <supervisor>
+    <et52 />
+  </supervisor>
+  <hidden>hidden</hidden>
+  <prerequisites><p>Basic knowledge of Java. Attending CO3090 may be helpful </p></prerequisites>
+  <aims><p>Trees are important data structures in Computer Science for instance they are very important for representing data in very efficient algorithms or to represent the syntax of terms in programming languages.This project aims to define and implement a framework to specify and concurrently apply rules for transforming trees. Typical examples of such rules are relabelling of nodes, pruning of trees, gluing of trees, change of the root node, etc. </p></aims>
+  <challenges><p>The challenges of this project is to find a user friendly environment to specify and apply transformation rules on trees in a concurrent way. </p></challenges>
+  <learning-outcomes><p>You will acquire a solid knowledge on concurrent programming in Java. </p></learning-outcomes>
+  <end-product><p>An concurrent environment to specify transformation rules and apply them on trees. </p></end-product>
+  <timetable>
+    <semester1><p>Review the basic knowledge on data structures; specify the requirements; design of the environment; prototype for specifying and sequentially apply the transformation rules. </p></semester1>
+    <semester2><p>Refinement of the specification part of the prototype; implementation of the concurrent application of rules. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="201260d0d2476c189f7e477e995f4acf">
+  <title>Web based bibliographic system</title>
+  <supervisor>
+    <et52 />
+  </supervisor>
+  <hidden>hidden</hidden>
+  <prerequisites><p>This project requires an interest in Web technologies and information systems </p></prerequisites>
+  <aims><p>In 1985 O. Patashnik and L. Lamport created BibTeX in order to make it easy to consistently cite sources. In BibTeX bibliographic information is separated from its presentation. This same principle of separation of content and presentation/style is present in many other languages like LaTeX, XHTML and CSS, etc. The project is to design and implement a Web-based system to assist users to find and keep updated a bibliographic system based on the BibTeX format. In particular, the system should help authorised users to search a database of bibliographic entries and to help users in updating the database. The system will be implemented Java or PHP, and XML. </p></aims>
+  <challenges><p>The minimum challenges on this project include translating (a) existing formats for databases of bibliographic references (e.g., bibtex, xml), (b) produce a system easily accessible and manageable from the web. </p></challenges>
+  <learning-outcomes><p><ul><li>Produce the requirements specification for the system.</li><li>Solve the concurrency problem by producing an algorithm for updating the database.</li><li>Design and implement the system.</li><li>Produce a user interface, produce the project report.</li> </ul> </p></learning-outcomes>
+  <end-product><p>A Web-based system for managing a bibliographic database. </p></end-product>
+  <timetable>
+    <semester1><p>Review Information Systems, learn the basics of programming languages needed; produce the set of requirement; design the database component and the user interface. </p></semester1>
+    <semester2><p>Implement the system and the user interface; write up project report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>L. Lamport</author>
+  <article>LaTeX: A Document Preparation System</article>
+  <volume>Addison-Wesley</volume>
+  <published year="1986"></published>
+  </reference><reference>
+  <author>T. Connolly</author>
+  <author>C. Begg</author>
+  <author>A. Strachan</author>
+  <article>Database Systems.</article>
+  <volume>Addison-Wesley</volume>
+  <published year="2003"></published>
+  </reference></references>
+</project>
+<project label="abdfa4ccec5caae5ce60b8a1e149c2c1">
+  <title>Family Trees</title>
+  <supervisor>
+    <fdv1 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm and interest to get involved in the topic. </p></prerequisites>
+  <aims><p>Genealogy has become a popular hobby when genealogical information became easily accessible online. Nowadays there is even a BBC series to encourage people to research their familiy histories. Typical questions that genealogists may ask are: "who are the ancestors of person X" or "who are the descendents of person Y" or "how are all the people with the last name Z related"? People who try to answer such questions go to (online) archives and collect family data, and share their information by making it public either on paper or online. </p><p>The aim of the project is to write tools that help budding genealogists with tasks like storing and displaying their genealogical data or testing the consistency of the data (children are not born before their parents, etc) Can you develop a simple XML language that can be used to structure genealogical data? Can you write a tool to manipulate and pretty print such XML data? Can you make a tool to display familytrees in a nice graphical way? </p></aims>
+  <challenges><p>One challenge is to come to various technologies involved. Can you come up with a tool that is simple in use and that allows a genealogist to (select and) display (subsets of) his family data in various ways (either text or graphics; on paper or on the web)? </p></challenges>
+  <learning-outcomes><p>You will become familiar with XML; you will learn how to represent graphs and trees on paper and on a webpage. </p></learning-outcomes>
+  <end-product><p>A software package that helps the family tree builder to store, annalyse and display his/her familydata. </p></end-product>
+  <timetable>
+    <semester1><p>research and prototyping </p></semester1>
+    <semester2><p>final product </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="f42a9b00ac03b5c3c4d8bd8c01da1627">
+  <title>Free Project</title>
+  <supervisor>
+    <fdv1 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm and an original project </p></prerequisites>
+  <aims><p>I am open to supervise other projects besides the eight other projects that I proposed: please come to me and discuss your proposal for your own project. </p></aims>
+  <challenges><p>Up to you! </p></challenges>
+  <learning-outcomes></learning-outcomes>
+  <end-product></end-product>
+  <timetable>
+    <semester1><p>prototype </p></semester1>
+    <semester2><p>final product </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="b994189a72d48bbbc56c0a39d1c0c40e">
+  <title>Game of Hex</title>
+  <supervisor>
+    <fdv1 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm and interest to get involved in this nice game. </p></prerequisites>
+  <aims><p>The aim of this project will be to design and implement a system for that allows you to play the famous Game of Hex either with two human players or with one human against the system or between two systems. </p>Description of the Game of Hex<p>Hex is a two player strategy game played on board of a NxN hexagons. Usually one plays the game at boards with N of size at least 11. The beginning player plays with black the other with white. </p><ul><li>Players alternately place tokens of their own colour on the board.</li><li>A hex token may be placed at any open position (hexagon) on the board.</li><li>Two hexagons are adjacent if they share an edge.</li><li>Hex tokens of the same colour on adjacent hexagons are connected.</li><li>Connectivity is transitive (the previous clause implies commutative): if a token 1 is connected to token 2 and token 2 is connected to token 3, then token 1 is connected to token 3.</li><li>The goal of the first player is to build a group/string of connected tokens connecting column 1 with column N. The goal of the second player is to build a group/string of connected tokens connecting row 1 with row N.</li> </ul></aims>
+  <challenges><p>It is a challenge is to make a reasonably strong computer player on NxN boards for arbitrary n. </p></challenges>
+  <learning-outcomes><p>You will gain knowledge of parts of AI and game theory. You will learn to make computers playing games </p></learning-outcomes>
+  <end-product><p>Understanding of the game. A package for playing the game with a computer: either between two humans or a human and a computer player. </p></end-product>
+  <timetable>
+    <semester1><p>Learn to play the game. Learn about game theory applicable to this particular game. Build some interface allowing two humans to play the game. Experiment with algorithms/strategies for a computer player. </p></semester1>
+    <semester2><p>Design and implement one or more computer players. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Matt Ginsberg</author>
+  <article>Essentials of Artificial Intelligence</article>
+  <published year="1993">Morgan Kaufmann Publishers</published>
+  </reference><reference>
+  <author>V. V. Anshelevich</author>
+  <article>A Hierarchical Approach to Computer Hex</article>
+  <published year="2002">Artificial Intelligence, 134, pp.101-120</published>
+  </reference><reference>
+  <author>V. V. Anshelevich</author>
+  <article><a href="http://home.earthlink.net/~vanshel/">http://home.earthlink.net/~vanshel/</a></article>
+  </reference><reference>
+  <author>Berlekamp, Conway and Guy</author>
+  <article>Winning Ways</article>
+  <volume>Volume 1 and especially 2</volume>
+  <published year="1982-3"></published>
+  </reference></references>
+</project>
+<project label="5c4e2b1a625c3ae84b2aa6a40e18ef51">
+  <title>Game of Sheep and Wolf</title>
+  <supervisor>
+    <fdv1 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm and interest to get involved in the topic. </p></prerequisites>
+  <aims><p>The aim of this project will be to design and implement a system for that allows you to play the old Game of Sheep and Wolf either with two human players or with one human against the system or between two systems. </p>Description of the Game of Sheep and Wolf<p>Sheep and Wolf is a nice, deceivingly simple game for children. There are two players in the game: one handles the white sheep and the second handles the wolf. The game is played on a board of checkers (10 x 10, neighbouring squares have opposite colours). Initially the 5 sheep and the wolf are positioned on the black squares. The 5 sheep are all positioned on the bottom row. The wolf can start at any field that her/his player likes. All pieces can make only diagonal moves to an adjacent square. The sheep can march only forward, the wolf can walk backwards and forwards. Alternating one sheep moves and then the wolf makes a step. The sheep win when the wolf can not make a legal move anymore, for instance, when they have encircled the wolf completely. The wolf wins when he manages to break through the line of sheep and reaches the bottom row. The wolf must make the first move. he Sheep can always winIf you play the game with friends, you will note that the sheep can always win. The book "Winning ways" explains this for an 8x8 board. Does this technique extends to other board sizes as well? Can general AI techniques lead to an unbeatable Sheep player?<i>Variant:</i>It is an open problem whether the sheep have a winning strategy if the wolf is allowed to pass one time. Can you write a strong sheep computer player for this game? </p></aims>
+  <challenges><p>It is a challenge is to make a sensible computer player for the sheep on 2nx2n boards for arbitrary n. What if the wolf is allowed to pass one move? </p></challenges>
+  <learning-outcomes><p>You will gain knowledge of AI and game theory. You will design and implement algorithms for computer players handling then sheep or the wolf. </p></learning-outcomes>
+  <end-product><p>Understanding of the game. A package for playing the game with a computer: either between two humans or a human and reasonably strong computer player that either plays the sheep or the wolf. </p></end-product>
+  <timetable>
+    <semester1><p>Learn to play the game. Learn about game theory applicable to this particular game. Build some interface allowing two humans to play the game. Experiment with algorithms/strategies for a computer player. </p></semester1>
+    <semester2><p>Design and implement one or more computer players. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Matt Ginsberg</author>
+  <article>Essentials of Artificial Intelligence</article>
+  <published year="1993"></published>
+  </reference><reference>
+  <author>Berlekamp, Conway and Guy</author>
+  <article>Winning Ways</article>
+  <volume>Volume 1 and especially 2</volume>
+  <published year="1982-3"></published>
+  </reference></references>
+</project>
+<project label="9cc061282c2f2a21ac3eddf9eb940fb7">
+  <title>Rewriting</title>
+  <supervisor>
+    <fdv1 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm and creativity. </p></prerequisites>
+  <aims><p>In many situations it is important to know for sure that your programs complete their tasks and don't run forever. The aim of this exciting project will be to design and implement a system that given program tries to decide whether or not it will terminate on any given input. To make life simple we will not study real programs in a full-grown programming language, but we will study rewriting systems. These are very simple, but very expressive formalisms, and therefore very useful for rapid prototyping. </p></aims>
+  <challenges>It is a challenge to understand enough of rewriting to implement the termination algorithms.</challenges>
+  <learning-outcomes><p><ul><li>You will become familiar with some ideas and concepts from the Theory of Rewriting,</li><li>you will study some termination algorithms,</li><li>And you will get the experience of converting theoretical algorithms into concrete programs.</li> </ul> </p></learning-outcomes>
+  <end-product><p>An implementation of a system which is able to test whether a rewriting system terminates. And who knows what else you come up with! </p></end-product>
+  <timetable>
+    <semester1><p>Study of rewriting and termination algorithms. Make some prototype software that can handle rewrite systems and make a reasonably detailed plan for the remaining software you will write in the second semester. </p></semester1>
+    <semester2><p>Implementation of one or two termination deciding algorithms. And if time permits some testing on an interesting example. For instance: is your software able to show that the sorting algorithms that you learned indeed terminate with a sorted list? </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="40e4a29c89653b77ae0e790e19729bba">
+  <title>Slitherlink and other Sudoku Puzzles</title>
+  <supervisor>
+    <fdv1 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm and interest to get involved. </p></prerequisites>
+  <aims><p>Recently Sudoku has recently become very popular outside Japan. Sudoku puzzles appear daily in most newspapers. Perhaps Sudoku was invented in Japan to have a counterpart for the crosswords which don't work well in the Japanese script. Slitherlink is another interesting Japanese puzzle. </p><p>Can you make software tools that help solving and or creating such puzzles? </p></aims>
+  <challenges><p>Plenty: Can you write a program that solves such puzzles? Can you write a program that gives hints to a human problem solver? Can you write a tool to design such puzzles? </p></challenges>
+  <learning-outcomes><p>A great experience in problem solving and programming. You will learn/apply some AI. </p></learning-outcomes>
+  <end-product><p>A package to help a human to solve and or create such puzzles online. </p></end-product>
+  <timetable>
+    <semester1><p>prototype </p></semester1>
+    <semester2><p>final product </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Matt Ginsberg</author>
+  <article>Essentials of Artificial Intelligence</article>
+  <published year="1993">Morgan Kaufmann Publishers</published>
+  </reference><reference>
+  <a href="http://en.wikipedia.org/wiki/Slither_Link">http://en.wikipedia.org/wiki/Slither_Link</a></reference><reference>
+  <author></author>
+  <note>I learned about these puzzles via a Japanese puzzlebook, published in 1993 by the Japanese publisher Nikoli</note>
+  </reference></references>
+</project>
+<project label="3e5ae1a7af4f85c304b06366d253a14d">
+  <title>The Birding - XML - Google Maps Project</title>
+  <supervisor>
+    <fdv1 />
+  </supervisor>
+  <prerequisites><p>Enthusiasm and interest to get involved in the topic. </p></prerequisites>
+  <aims><p>The aim of this project will be to design and implement a XML driven database that would allow a group of birdwatchers (say the Leicestershire and Rutland Ornithological Society) to input their bird observations in the club computer via an intelligent home page over the internet using modern Google Maps technologies.<p> </p>The page should allow for a simple and quick way of inputting of data. The page should provide some easy tools for performing some elementary statistics on the data. Its should provide an easy interface to query the database. </p><p>Location data provides various particularly interesting challenges: either one inputs raw coordinates of a location (the birder may use a map or GPS), or one input locations with help of a clickable map. </p><p>Nowadays Google provides maps in great detail of large parts of the earth and all kind of tools to manipulate them. Find a way to use these maps. (For an example of combining user data with Google maps see www.houseprices.co.uk) The outcome of certain queries can now well be a map: eg, imagine a map with all breeding locations of the Sparrowhawk in Leicestershire. </p></aims>
+  <challenges><p>There are all kind of challenges: one has to come to grips with and combine all the various technologies involved. The design and implementation of a tool that is simple in use and allows the birdwatchers to query their data and display the resulting data in various ways. Another interesting challenge is to link the Google maps in a clever and useful way to the database. </p></challenges>
+  <learning-outcomes><p>Experience in representing complex data in XML, and writing tools to input and analyse the data via a website. Experience with Google Maps. </p></learning-outcomes>
+  <end-product><p>An analysis what kind of data birdwatchers like to collect and store in a database, an analysis how inputting such data can be facilitated and checked for correctness/reasonability. An analysis of the kind of statistics that birdwatchers may perform on their data. A design and an implementation of an actual piece of birding software that is ready for use and that helpful for bookkeeping of bird observations. </p></end-product>
+  <timetable>
+    <semester1><p>Definition of a suitable XML format for birding data. Experimentation with prototypes. Design of final product. </p></semester1>
+    <semester2><p>Implementation of final product. </p></semester2>
+  </timetable>
+  <references><reference>
+  <note>See <i><a href="http://www.w3.org/XML/1999/XML-in-10-points">http://www.w3.org/XML/1999/XML-in-10-points</a></i> for a brief introduction to XML by W3.</note>
+  </reference><reference>
+  <note>See <i><a href="http://www.lros.org.uk">http://www.lros.org.uk</a></i> for the homepage of the Leicestershire and Rutland Ornithological Society</note>
+  </reference><reference>
+  <note>See <a href="http://www.google.com/apis/maps/">http://www.google.com/apis/maps/</a> for how to put Google Maps on your website.</note>
+  </reference></references>
+</project>
+<project label="ce6ff05c3908c150f4970fcf5309ca7a">
+  <title>A Simple Model Checker in Prolog</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden>Hide me</hidden>
+  <prerequisites><p>This project requires familiarity with CO2014 (Logic Programming) and it is strongly recommended that the student chooses CO3007 (Communication and Concurrency). </p></prerequisites>
+  <aims><p>A communication protocol is a scheme for exchanging messages between two parties over a computer network. Protocols have to deal with messages being lost or corrupted by the network, and with issues of flow control. There are a number of well known protocols, such as the alternating bit protocol and the sliding window protocol. Unfortunately, they are difficult to understand, model and verify. </p><p>Process languages are formal languages for describing parallel and distributed systems. Well known process languages include CCS (which you'll learn on CO3007) and CSP. A model checker is a software tool that verifies if a concurrent system has a certain property. For example, for a communication protocol, a model checker can verify whether or not the protocol delivers eventually the messages that one party sends to another party. </p><p>The aim of this project is to build a simple model checker and an emulator of the process language CCS in the logic programming language Prolog. The user will prepare a file containing a description of a system, for example a communication protocol, and load this file into the emulator. She will be able then to verify simple properties of systems such as, for example, the lack of deadlock. For example, for a communication protocol, the user should be able to verify that the messages that one party sends to another party are delivered eventually. </p></aims>
+  <challenges><p>The challenges on this project include design and implementation in Prolog of a system that will emulate efficiently the execution of CCS agents based on their operational semantics and the development of simple model checker. The student taking this project will have an opportunity to research the basics of model checking as means for verifying correctness. Also, GUI that will allow users to execute agents in step-by-step fashion, where steps are chosen be the users, is crucial. Here, the choice of programming language for GUI that will work well with Prolog will be important. </p></challenges>
+  <learning-outcomes><ul><li>Learn CCS and the basics of model checking, and write an account of it.</li><li>Study several communication protocols and write an account of them.</li><li>Specify, design and implement the model checker and the emulator.</li><li>Produce description of several protocols, and use the model checker to analyse them.</li><li>Produce a detailed report.</li> </ul></learning-outcomes>
+  <end-product><p>A model checker and an emulator for CCS, together with several input files containing descriptions of communication protocols. </p></end-product>
+  <timetable>
+    <semester1><p>Learn the syntax and operational semantics of CCS; study several communication protocols and write an account of them; specify the emulator and the model checker. </p></semester1>
+    <semester2><p>Design and implement the emulator and model checker; develop a suite of examples; write up project report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>R. Milner</author>
+  <volume>Communication and Concurrency</volume>
+  <published year="1989">Prentice Hall International</published>
+  </reference><reference>
+  <author>I. Bratko</author>
+  <volume>Prolog, Programming for Artificial Intelligence, 2nd edition</volume>
+  <published year="1986">Addison-Wesley</published>
+  </reference><reference>
+  <author>C. Fencot</author>
+  <volume>Formal Methods for Concurrency</volume>
+  <published year="1996">Thomson International</published>
+  </reference></references>
+</project>
+<project label="0da9ba971c759fb4cff7e2e7f6cc773e">
+  <title>A process algebra simulator</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>This project requires some familiarity with CO2008 (Functional Programming) and it is strongly recommended that the student chooses CO3007 (Communication and Concurrency). </p></prerequisites>
+  <aims><p>A communication protocol is a scheme for exchanging messages between two parties over a computer network. Protocols have to deal with messages being lost or corrupted by the network, and with issues of flow control. There are a number of well known protocols, such as the alternating bit protocol and the sliding window protocol. Unfortunately, they are a bit difficult to understand, model and analyse. </p><p>Process algebras are formal languages for describing parallel and distributed systems. Well known process algebras include CCS which is the subject of CO3007. </p><p>The aim of this project is to build a process algebra simulator. The user will prepare a file containing a description of a concurrent system, for example a communication protocol, and load this file into the simulator. The simulator will then allow the user to "walk through" the system, i.e. to investigate what possible different runs the system can produce when it executes. </p></aims>
+  <challenges><p>Design and implementation of a system that will simulate the execution of CCS agents based on their operational semantics. Also, the development of GUI that will allow users to execute agents in step-by-step fashion, where steps are chosen be the users, is important. </p><p>A feature that will allow the user to "reverse" steps taken in order to recover from deadlocks will be quite useful: for this a student taking this project will need to study the basics of reversible CCS. </p></challenges>
+  <learning-outcomes><ul><li>Learn CCS and write an account of it.</li><li>Study several communication protocols and write an account of them.</li><li>Specify, design and implement the simulator using object oriented or functional programming language.</li><li>Produce description of several protocols, and use the simulator to analyse them.</li><li>Produce a detailed report.</li> </ul></learning-outcomes>
+  <end-product><p>A simulator for process algebra, together with several input files containing descriptions of communication protocols. </p></end-product>
+  <timetable>
+    <semester1><p>Learn the syntax and operational semantics of CCS; study several communication protocols and write an account of them; specify the simulator. </p></semester1>
+    <semester2><p>Produce a data structure to store the code of CCS processes; design an algorithm that will drive hte execution of CCS processes forward (and in reverse); design and implement the simulator; develop a suite of examples; write up project report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>R. Milner</author>
+  <volume>Communication and Concurrency</volume>
+  <published year="1989">Prentice Hall International</published>
+  </reference><reference>
+  <author>C. Fencot</author>
+  <volume>Formal Methods for Concurrency</volume>
+  <published year="1996">Thomson International</published>
+  </reference></references>
+</project>
+<project label="6bcfa2c9e424e512f67ebc6c4d7ad0d5">
+  <title>A software tool for cellular automata</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>This project requires familiarity and interest in programming, computer graphics and a good understanding of automata module CO2011. </p></prerequisites>
+  <aims><p>According to Wikipedia, a cellular automaton is a discrete model studied in computability theory, mathematics, physics, complexity science, theoretical biology and microstructure modeling. </p><p>The aim of the project is to study basics of cellular automata, study software tools for one- and two-dimensional cellular automata, and experiment with these software tools. Finally, use the knowledge and experience gained to to develop your own software tool, design "reversible" cellular automata and experiment with both types of automata using your software tool. </p></aims>
+  <challenges><p>The challenges on this project include: </p><p>1. Learn the basics of cellular automata and software tools for cellular automata; </p><p>2. Study reversible cellular automata; </p><p>3. Develop a simple software tool for reversible cellular automata. </p><p>Also, see http://www-course.cs.york.ac.uk/nsc/applets/CellularAutomata/index1d.html </p></challenges>
+  <learning-outcomes></learning-outcomes>
+  <end-product><p>Extensive report on challenges 1 and 2, software tool for challenge 3, descriptions of several reversible cellular automata. </p></end-product>
+  <timetable>
+    <semester1><p>Consult supervisor. </p></semester1>
+    <semester2><p>Consult supervisor. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="255897b032a700087daf168efa77a547">
+  <title>A software tool for lab tests</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden>hide</hidden>
+  <prerequisites><p>This project requires an interest in information systems and programming in Java and mySQL, or xml and others. </p></prerequisites>
+  <aims><p>The project is to design and implement a computer system that will help setting up, running and marking of supervised class tests on CO1011 (or other module, for example CO3007). The main component of the system will be a database that will hold the the test questions, answers, students' details, students' answers and marks, test statistics, etc. The tests will be Web-based, they will be run in labs, and the marking and feedback will be performed partially by the system and partially by the the module lecturer. </p><p>The student on this project will collaborate with the module lecturer to find out what type of questions, marking scheme, type of feedback and the preferred form of tests are required. The system should be implemented using mySQL and Java or PHP. </p><p>The system should provide two secure and distinct levels of service to its users, who will be the module lecturers and the students. For example, the students would be able to complete the test at a predefined time and then get their marks and feedback. Lecturers would be able to set up the questions and answers, control the running of the test, and get all the marks and test statistics. </p></aims>
+  <challenges><p>A student taking this project needs to study the topic of testing and various approaches to testing, and find or create an appropriate one for computer science modules The challenges on this project include producing a system that provides two secure and distinct levels of service to its users, who will be the module lecturers and the students. For example, the students would be able to complete the test at a predefined time and then get their marks and feedback. Lecturers would be able to set up the questions and answers, and control the running of the test. Also, the production of test statistics and their display would be useful. </p></challenges>
+  <learning-outcomes><p><ul><li>Review Information Systems, mySQL and Java.</li><li>Produce the requirements specification for the system.</li><li>Solve the security and access problem.</li><li>Design and implement the system, produce the project report.</li> </ul> </p></learning-outcomes>
+  <end-product><p>A computer system, with a database component, for setting up, running, and marking of lab tests. </p></end-product>
+  <timetable>
+    <semester1><p>Review Information Systems, mySQL and Java; produce the set of requirement; design the database system; design the marking and feedback algorithms. </p></semester1>
+    <semester2><p>Solve the security and access problems; implement the system and the user interface; write up the project report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>T. Connolly, C. Begg and A. Strachan</author>
+  <volume>Database Systems</volume>
+  <published year="2005">Addison-Wesley</published>
+  </reference><reference>
+  <author>P. DuBois</author>
+  <volume>MySQL</volume>
+  <published year="1999">New Riders</published>
+  </reference></references>
+</project>
+   <project>
+ 
+      <title>A Tool for Bisimulation Games</title>
+
+      <supervisor><iu3/>
+      </supervisor>
+
+      <prerequisites>
+      <p>
+      This project requires some familiarity with CO2006
+      and it is strongly recommended that the student chooses CO3007
+      (Communication and Concurrency).
+      </p>
+      </prerequisites>
+
+      <aims>
+      <p>
+      Process languages are formal languages for describing concurrent and
+      distributed systems. Well known process languages include CCS (which you'll
+      learn on CO3007) and CSP. Both specifications and descriptions of design of
+      systems can be written in CCS. One way of showing that a design is
+      correct with respect to a specification is to prove that they are bisimilar.
+      Bisimilarity can be established in terms of winning strategies in the
+      so-called bisimulation games. These games are taught in CO3007, and the project
+      aims to produce a software tool that will assist in teaching bisimulation games.
+     Given  CCS descriptions of a specification and a design for a system, the tool
+     will help the students to establish whether the design is correct with respect to
+     the  specification. Using the tool, the students will be able to
+     <ul>
+      <li> play bisimulation games between themselves (here, the validity of
+      moves will be checked and the winning position will be
+      confirmed);</li>
+      <li> play bisimulation games against the tool; </li>
+      <li> formulate winning strategies. </li>
+</ul>
+
+</p>
+
+</aims>
+
+<challenges>
+<p>
+The challenges on this project include design and implementation of a system
+that will simulate efficiently the execution of CCS agents based on their
+operational semantics, the development of GUI that will allow users to execute
+agents in step-by-step fashion, where steps are chosen be the users,
+and, perhaps, the development of simple game strategies and implementing
+computer player that will utilise these strategies.
+</p>
+</challenges>
+
+<learning-outcomes>
+<ul>
+<li> Learn the syntax of CCS and its operational semantics.</li>
+<li> Study the basics of game theory, learn Bisimulation Games and
+write an account of them.</li>
+<li> Produce specifications and designs of several concurrent systems,
+and work out winning strategies for bisimulation games involving
+these specifications and designs. </li>
+<li> Produce the specification and design of the bisimulation games software
+tool using object oriented techniques, and the implementation of the tool. </li>
+<li> Use the software tool to verify designs against specifications for
+several systems.  </li>
+<li> Produce a detailed report.</li>
+
+</ul>
+</learning-outcomes>
+
+<end-product>
+<p> A software tool, together with descriptions of specifications and designs
+for several concurrent systems, for playing bisimulation games.
+
+</p>
+</end-product>
+
+<timetable>
+<semester1>
+<p>
+Learn the syntax and operational semantics of CCS and Bisimulation Games;
+study several concurrent systems, produce their specifications and designs,
+and write an account of them; specify the software tool.
+</p>
+</semester1>
+<semester2>
+<p>
+Design and implement the software tool; develop a suite of
+examples; write up project report. </p>
+</semester2>
+</timetable>
+
+<references>
+
+  <reference>
+      <author>R. Milner</author>
+      <volume>Communication and Concurrency</volume>
+      <published year="1989">Prentice Hall International</published>
+ </reference>
+
+<reference>
+<author>C. Fencot</author>
+<volume>Formal Methods for Concurrency</volume>
+<published year="1996">Thomson International</published>
+</reference>
+
+</references>
+</project>
+<project label="4b73baaa638e2e8bd028a09db056fbf2">
+  <title>A workshop assistant</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>This project requires an interest in Web technologies, information systems, and in learning and experimenting with a new programming environment. </p></prerequisites>
+  <aims><p>The project is to design and implement a Web-based system to assist an organiser of a (computer science) workshop to manage submission of research papers to the workshop, distribution of papers to the referees, submission of referees' reports, calculation of marks and accept/reject decisions. </p><p>To learn MVC (Model-view-controller) methodology and to use MVC software (eg Ruby on rails) in the project. </p></aims>
+  <challenges><p>A student taking this project needs to study what typical organisation and running of a small workshop entails and software products that help with this. The questions of security, appropriate level of access, anonymity, live debate and decision making need to be considered. </p><p>Also, learning Ruby on rails and the general MVC methodology. </p></challenges>
+  <learning-outcomes></learning-outcomes>
+  <end-product><p>A Web-based system for managing workshop submissions. </p></end-product>
+  <timetable>
+    <semester1><p>Review Information Systems, learn the basics of Ruby on rails; produce the set of requirement; design the database component and the user interface. </p></semester1>
+    <semester2><p>Implement the system and the user interface; write up project report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>T. Connolly, C. Begg and A. Strachan</author>
+  <volume>Database Systems</volume>
+  <published year="2003">Addison-Wesley</published>
+  </reference></references>
+</project>
+<project label="01c0333ef585e8ee58a0ca54d523af24">
+  <title>Electronic voting</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden>Hide this project</hidden>
+  <prerequisites><p>Good programming skills, and CO3099. </p></prerequisites>
+  <aims><p>Most of you have probably seen or participated in a poll on the Internet, for example ``Which is the best football club in Europe?'' Manchester United, Chelsea, AC Milan, Barcelona, ...? The project is to study. design and implement a Web based generic electronic voting or polling system. A considerable part of the project would be to study current state of the art in electronic voting. The system should have an interface for creating the questionnaire, should accept completed questionnaires, process them and produce the summary of results. The system should be secure and support anonymity. </p></aims>
+  <challenges><p>Learn the state of the art of electronic voting or polling. Design and implement a system where a user can set the questions and choose the population of voters. Ensure security, anonymity. Produce automatic analysis of results. </p></challenges>
+  <learning-outcomes><p><ul><li>Review Information Systems, mySQL and Java.</li><li>Study the state of the art of electronic voting or polling. system.</li><li>Solve the security, access, anonimity problem.</li><li>Design and implement the system, produce the project report.</li> </ul> </p></learning-outcomes>
+  <end-product><p>An electronic voting or polling system that can be specialised to, for example, module questinnaires on the Web. </p></end-product>
+  <timetable>
+    <semester1><p>To be agreed </p></semester1>
+    <semester2><p>To be agreed </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Bruce Schneier</author>
+  <volume>Applied Cryptography</volume>
+  <published year="1996">Wiley</published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="22d207a9c3d05d95d08aa6bdf1aa6dbb">
+  <title>Model checking in Prolog</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden>This is a duplicate</hidden>
+  <prerequisites><p>This project requires familiarity with CO2014 (Logic Programming) and it is strongly recommended that the student chooses CO3007 (Communication and Concurrency). </p></prerequisites>
+  <aims><p>A communication protocol is a scheme for exchanging messages between two parties over a computer network. Protocols have to deal with messages being lost or corrupted by the network, and with issues of flow control. There are a number of well known protocols, such as the alternating bit protocol and the sliding window protocol. Unfortunately, they are difficult to understand, model and verify. </p><p>Process languages are formal languages for describing parallel and distributed systems. Well known process languages include CCS (which you'll learn on CO3007) and CSP. A model checker is a software tool that verifies if a concurrent system has a certain property. For example, for a communication protocol, a model checker can verify whether or not the protocol delivers eventually the messages that one party sends to another party. </p><p>The aim of this project is to build a simple model checker and an emulator of the process language CCS in the logic programming language Prolog. The user will prepare a file containing a description of a system, for example a communication protocol, and load this file into the emulator. She will be able then to verify simple properties of systems such as, for example, the lack of deadlock. For example, for a communication protocol, the user should be able to verify that the messages that one party sends to another party are delivered eventually. </p></aims>
+  <challenges><p>The challenges on this project include design and implementation in Prolog of a system that will emulate efficiently the execution of CCS agents based on their operational semantics and the development of simple model checker. The student taking this project will have an opportunity to research the basics of model checking as means for verifying correctness. Also, GUI that will allow users to execute agents in step-by-step fashion, where steps are chosen be the users, is crucial. Here, the choice of programming language for GUI that will work well with Prolog will be important. </p></challenges>
+  <learning-outcomes><ul><li>Learn CCS and the basics of model checking, and write an account of it.</li><li>Study several communication protocols and write an account of them.</li><li>Specify, design and implement the model checker and the emulator.</li><li>Produce description of several protocols, and use the model checker to analyse them.</li><li>Produce a detailed report.</li> </ul></learning-outcomes>
+  <end-product><p>A model checker and an emulator for CCS, together with several input files containing descriptions of communication protocols. </p></end-product>
+  <timetable>
+    <semester1><p>Learn the syntax and operational semantics of CCS; study several communication protocols and write an account of them; specify the emulator and the model checker. </p></semester1>
+    <semester2><p>Design and implement the emulator and model checker; develop a suite of examples; write up project report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>R. Milner</author>
+  <volume>Communication and Concurrency</volume>
+  <published year="1989">Prentice Hall International</published>
+  </reference><reference>
+  <author>I. Bratko</author>
+  <volume>Prolog, Programming for Artificial Intelligence, 2nd edition</volume>
+  <published year="1986">Addison-Wesley</published>
+  </reference><reference>
+  <author>C. Fencot</author>
+  <volume>Formal Methods for Concurrency</volume>
+  <published year="1996">Thomson International</published>
+  </reference></references>
+</project>
+<project label="778b94607e593631cb8950ceb33ce3e3">
+  <title>Simulation of computation under weak memory model</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Good Java or C++ programming skills and interest in multi-threaded programming and in weak memory models. </p></prerequisites>
+  <aims><p>The project aims to develop a web based system to simulate execution of simple multi-threaded-like programs under weak memory model assumption. The system will then be used to illustrate how the same program may produce different results when executed according different memory models assumptions. </p></aims>
+  <challenges><p>Study the basics of weak memory models. </p><p>Design and implement a simple simulator. </p><p>Implement optimizations for two different weak memory models. </p><p>Write a suite of experiment programs to test the simulator under two different memory models. </p></challenges>
+  <learning-outcomes><p>Learn the basics of weak memory models. Gain experience in multi-threaded programming. Analyze and evaluate experimental data. </p></learning-outcomes>
+  <end-product><p>A simulator, a suite of experiment programs. </p> </end-product>
+  <timetable>
+    <semester1><p> </p></semester1>
+    <semester2><p> </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="10454c0306bd2017a4cad6fc64713937">
+  <title>Spacial modelling for ubiquitous computing</title>
+  <supervisor>
+    <iu3 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Good software engineering and programming skills. </p><p>Interest in ubiquitous computing. </p></prerequisites>
+  <aims><p>The aim of this project is to study ubiquitous computing from the point of view of the modelling techniques employed. More specifically, the project aims to describe and classify the spacial structure of ubiquitous systems, the functionality of components and the communication and interaction between the components, users and the environment. </p><p>A software tool will be developed to illustrate spacial organisation of an example ubiquitous system, say in the healthcare environment, to show the movement of components such as people, PDAs, services, etc. </p></aims>
+  <challenges><p>Study the basics of ubiquitous computing and write a report on that. </p><p>Study the modelling techniques for spacial organisation and movement of components. </p><p>Develop a software tool to represent spacial organisation and movement of components. </p></challenges>
+  <learning-outcomes><p>Learn the basics of ubiquitous computing. </p><p>Study the modelling techniques for spacial organisation and movement of components. </p><p>Learn how to develop a graphical tool to represent spacial organisation and movement of components. </p></learning-outcomes>
+  <end-product><p>Report and a software tool. </p></end-product>
+  <timetable>
+    <semester1><p> </p></semester1>
+    <semester2><p> </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Ichiro Satoh</author>
+  <volume>A Location Model for Pervasive Computing Environments</volume>
+  <published year="2005"></published>
+  <note>See author's Web site: http://research.nii.ac.jp/~ichiro/</note>
+  </reference></references>
+</project>
+<project label="f31770586a4d9664bbbc9892a2952fac">
+  <title>3d house planner</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Experience in creating 3D environments </p></prerequisites>
+  <aims><p>There are many professional 3D CAD programs available. A good example is the free google scatch up.
+  As these are very flexible tools and no specifc a certain type of 3D object using them can be tricky at the best of times. </p>
+  
+  <p> 
+  The aim of this project is create 3D CAD tool for drawing a house.  </p>
+  </aims>
+  <challenges><p> Creating an easy to use houes drawing tool</p>
+  <p> Point selection in a 3D space via mouse clicks</p>
+  <p> Handling multiple lighting </p>
+  <p> Open and close windows and doors </p>
+  <p> Create a walk through </p>
+  </challenges>
+  <learning-outcomes><p> </p></learning-outcomes>
+  <end-product><p>A house drawing tool</p></end-product>
+  <timetable>
+    <semester1><p> Analyise needed skills to complete the project </p>
+    <p> Identitfy basic houes compnents</p>
+    <p> Design and implement a prototype </p></semester1>
+    <semester2><p> Enhance prototype with additional component and manipulations of existing components</p>
+    <p> Testing </p>
+    </semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="22046bbde985327ec2b79e3915b4fe18">
+  <title>Agent Negotiation</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden>hidden</hidden>
+  <prerequisites><p>Good programming skills in either Java or C++. </p></prerequisites>
+  <aims><p>Consider following the situation: There are two people, each of them has a collection of different colored balls. For example person A has 2 red, 1 yellow and 1 blue ball. Also each person has an objective of what selection of colored balls he/she would like achieve. The two people can now start to negotiate. Offering 2 red balls for a yellow one and so on.... The negotiation will take place, some balls get exchanged, until either a certain time is up or both people don't want to trade any more. </p><p>For just two people this situation can be already tricky, but now imagine a whole network of these people (Agents). Each agents a selection of colored balls and an individual objective selection that they would like to achieve. The network structure restricts the communication between agents to only the ones that are linked together. The negotiation of making and accepting offers is no longer done by people but by computer programs for each agent. </p><p>The aim of this project is to create a computer program that allows the simulation of such a scenario. </p><p>The basic features of the product would be to handle different networks, starting selection, objectives of each agent and different computer programs controlling different agents. </p></aims>
+  <challenges><p>The challenges in the project lie in<ul><li>defining and implementing a protocol on negotiation and trading between agents</li><li>Creating and handling of graph structures</li><li>Write your own agent controlling programs</li><li>Analyzing and evaluating different agent controlling programs</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will learn about multi agents programs, the communications between them and agent programming strategies. </p></learning-outcomes>
+  <end-product><p>The end product is a mulit agent negotiation simulator. It is based on agents are located on nodes of a graph (network. The agent trade different colored balls. </p></end-product>
+  <timetable>
+    <semester1><p><ul><li>Analyzing skill needed to complete the project</li><li>Gaining/testing these skills by proto typing in a two agent scenario</li><li>Establish the communication protocol between the agents</li><li>Implement simple agents programs</li> </ul> </p></semester1>
+    <semester2><p><ul><li>Extend to multiple agent</li><li>Position the agent in a graph</li><li>Implement more agents programs</li><li>Analyze your finding</li> </ul> </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="0b0c739ac659bb699232f96d7ea4c63c">
+  <title>Algorithms for areas of uncertainty problems</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Good understanding of algorithm. Good programming skills in either Java or C++. </p></prerequisites>
+  <aims><p>Most algorithmic problems assume that the precise input is known. However in reality the initial information might not be precise and with additional cost the exact data for a certain input can be obtained. </p>
+  
+  <p>For example there are many algorithm for weighted graphs (a network where each edge of the network has a value). Typically it is assumed that the weight of an edge is known exactly. In fact the exact information is not always for the algorithm to run, and where more precise information is needed only requesting the precise weight of certain edges is needed. </p>
+  
+  <p>The aim of this project is to design and implement algorithms for problems with areas of uncertainty and to evaluate them in systematic simulation experiments. Some algorithms have been proposed in the literature. In addition, there is opportunity to modify/improve the known algorithms or to develop new ones. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>Understanding the description of algorithms with uncertainty from the literature, and implementing them properly.</li><li>Inventing new algorithms with uncertainty.</li><li>Implementation and visualization of efficient algorithms</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>Be able to discuss the application background of problems with uncertainty.</li><li>Be able to compare different algorithm for a problem with uncertainty.</li><li>Design a tool for simulating different algorithm for problems with uncertainty.</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software tool to visualize and analyze algorithm with uncertainty. </p></end-product>
+  <timetable>
+    <semester1><p>Reading of background material. </p><p>Selection of the particular problem with uncertainty </p><p>Prototype for visualization of algorithms for the selected problem. </p></semester1>
+    <semester2><p>Implementing known algorithm. </p><p>Design and implement new algorithm. </p></semester2>
+  </timetable>
+  <references><reference>
+  </reference></references>
+</project>
+<project label="0a0fb27813c01b1ef2a532ffa84b6aa5">
+  <title>Go notation program</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Good programming skills, a good understanding of databases, and some familiarity with game GO (Wei chi)</p></prerequisites>
+  <aims><p>Go is an board game and has in Asia a similar status as chess in Europe. The aim of the project is to write a notation program for go. Each move should be recorded, together with comments and possible alternative move. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>Efficient structure of data</li><li>Design of efficient algorithm</li><li>Visualization of alternative moves</li><li>Finding similar situation in different recorded matched</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>carry out a detailed requirements analysis and specification of the problem.</li><li>produce an objected-oriented design of a software system to implement</li><li>learn about human computer interaction</li> </ul> </p></learning-outcomes>
+  <end-product><p>The end product will be a go notation program. </p></end-product>
+  <timetable>
+    <semester1><p>A detailed specification of the program. </p><p>Prototyping of the GUI and the board display. </p></semester1>
+    <semester2><p>Implement the specification and test the program </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="d40435d8e2485a749ead9111a2463230">
+  <title>Graph colouring</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <prerequisites><p>Good understanding of algorithm. Good programming skills in either Java or C++. </p></prerequisites>
+  <aims><p>A graph is a collection of nodes and collection of edges connecting two nodes. You can think of a graph like a computer network, where a node is a computer or hub and each edge corresponds to a cable between two components. </p><p>A wide and interesting area is the colouring of graphs. Given a graph and some colours. For example the task is to Colour each node such that no two nodes with the same colour are connected by an edge. </p><p>Recently a tool for creating counter example for certain types of colouring has be developed in Leicester. The current tool produces very large counter example where actually smaller ones are available. </p><p>The aim of this project to write a tool that firstly verifies that the previously found examples can not be colouring under a certain condition. Finding smaller ones and representing the examples in a graphic form. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>Understanding the problem of graph colouring under certain conditions.</li><li>Understanding recent research paper in that area.</li><li>Representing graphs and their colouring inside a program</li><li>Inventing new algorithms to find smaller counter examples.</li><li>Implementation and visualisation of efficient algorithms</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>Be able to discuss the problem of graph colouring.</li><li>Be able to compare different approaches in that area.</li><li>Design a tool for testing colouring of graphs.</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software tool to test and create counter examples for graph colouring under certain conditions. </p></end-product>
+  <timetable>
+    <semester1><p>Reading of background material. </p><p>Selection of the data structure for the graph and colouring. </p><p>Review the existing tool. </p><p>Prototype for testing if a given colouring of a graph is valid. </p></semester1>
+    <semester2><p>Present graphs and their colouring graphically </p><p>Design and implementation of new algorithm. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="7a5bff07def0d71022f30407796e1739">
+  <title>Multiplayer Air Hockey Game</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden>hidden</hidden>
+  <prerequisites><p>Good programming skills in Java or C++. CO1003, CO1004 or CO2005, CO2006, CO2016 </p></prerequisites>
+  <aims><p>The aim of project is to create a virtual 3D environment. In this multiple user, divided in two teams, will be able play a game of air hockey. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>orientation in a 3D-environment</li><li>animation with respect of physical laws (momentum, spin)</li><li>effective collision detection</li><li>handling of non player controlled (NPC) components</li><li>data management on distributed systems,</li><li>networking (minimizing lag and the effect of lag)</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>learn about techniques for representing and working with 3D landscapes on a computer.</li><li>learn about simulating physical behaviors.</li><li>carry out a detailed requirements analysis and specification of the problem.</li><li>learn about distributed programming including client-server architectures.</li><li>implement the client, server, user interfaces and communications protocols</li> </ul> </p></learning-outcomes>
+  <end-product><p>The product of this project is multiplayer air hockey game. </p></end-product>
+  <timetable>
+    <semester1><p>A detailed specification of both the client and the server. </p><p>Prototyping the client/server aspects of the projects </p><p>Prototyping the graphical aspects of the projects </p><p>Research on the physical behavior and on algorithms to simulate them </p></semester1>
+    <semester2><p>Implementing, testing and documenting the product. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Henry Sowizral, Kevin Rushforth and Michael Deering</author>
+  <volume>The Java 3D API Specification</volume>
+  <published year="1998">Addison-Wesley</published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="def98c2ad8421668caca39b2b2690688">
+  <title>Multiplayer XKobo clone</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>CO1003, CO1005, CO2006, CO2016 </p></prerequisites>
+  <aims><p>The aim of project is to create a muliplayer clone of the classic game xkobo (http://olofson.net/kobodl/). </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>Sprite and image handling in 2D</li><li>learn about distributed programming including client-server architectures.</li><li>implement the client, server, user interfaces and communications protocols</li><li>Handling of non player controlled (NPC) components (e.g.:other space ships)</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>Learn about techniques for representing and working with 2D environments.</li><li>implement the client, server, user interfaces and communications protocols</li><li>carry out a detailed requirements analysis and specification of the problem.</li><li>learn about distributed programming including client-server architectures.</li> </ul> </p></learning-outcomes>
+  <end-product><p>The product of this project is a multiplayer xkobo clone. </p></end-product>
+  <timetable>
+    <semester1><p>A detailed specification of both the client and the server. </p><p>Research and prototyping of 2D graphic libraries including sprite handling. </p><p>Prototyping the graphical aspects of the projects </p><p>Prototyping the graphical and client/server aspects of the projects </p></semester1>
+    <semester2><p>Implementing, testing and documenting the product. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="addf0041740fcb1d7e99dfe7c2b446c6">
+  <title>SVG editor</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>CO1003, CO1005 , CO2006, CO2016 </p></prerequisites>
+  <aims><p>The aim of project is to create an editor for SVG in Java. The user should be able to draw shapes and other SVG components. Also the user should be able to specify different animations for the components. The editor will output SVG code in XML format. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>Good HCI</li><li>The data representation of the drawing.</li><li>read and write XML files</li><li>Effective use of advanced SVG components</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>learn about advanced SVG components and related standards.</li><li>carry out a detailed requirements analysis and specification of the problem.</li><li>implement a good HCI for the required drawing tool.</li><li>carry out a detailed requirements analysis and specification of the problem.</li> </ul> </p></learning-outcomes>
+  <end-product><p>The product of this project is a SVG editor. </p></end-product>
+  <timetable>
+    <semester1><p>Choose the internal data representation of the drawing. </p><p>Prototyping the drawing tool. </p><p>Import and export simple SVG code in XML format. </p><p>Research on the advanced SVG components. </p></semester1>
+    <semester2><p>Implementing, testing and documenting the product. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="f0884aad241bd9ae589bdd3762ee2ffa">
+  <title>Scratch card Sudoku</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Good programming skills. Knowledge about design and analysis of algorithms. Logical thinking and problem solving abilities. </p></prerequisites>
+  <aims><p> Sudoku is popular puzzle game. In the traditional version the value of some cells of the 9x9 grid are given. The player need to fill in the remaining sell so that all constrains are satisfied. In the variant of the game no value of any cell is given. The player can 'scratch off' a cell to see the value of that cell. The aim for the player to complete the Sudoku with the least number of scratch of cells.</p>
+  
+  <p>
+  The aim in this project is to create a program that allows a user to play this game. Create algorithms that can play the game, calculate the minimum number of cells that needed to scratched of to complete the Sudoku</p></aims>
+  <challenges><p> Understand the setting of imprecise but request-able input data . Write a robust and functional software product. Design and analyze new algorithms.</p></challenges>
+  <learning-outcomes><p>The student will: * learn about the design and implementation of an original software project * learn about design and analysis of online algorithms * learn about uncertainty problems that are related to current research </p></learning-outcomes>
+  <end-product><p> A scratch card Sudoku program. Analysis and evaluation of used algorithms.</p></end-product>
+  <timetable>
+    <semester1><p> Creation of initial program with user interaction, but no algorithm
+    
+    Learning about algorithms to solve traditional Sudokus.  </p></semester1>
+    <semester2><p> Design, implement and analyze new algrithms </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="c50f0bc4d056952fd931143ad543657a">
+  <title>Sokoban solver</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <prerequisites><p> Good programming and problem solving skills </p></prerequisites>
+  <aims><p> 
+  Sokoban is an old puzzle games from the early 1980's.
+  Over the years Sokoban was subject to some scientific research. Benchmarks and competition for Sokoban solver were established.
+  </p>
+  
+  <p>
+  Some aspects of more modern puzzle games can be traced back to Sokoban. 
+  </p>
+  
+  <p>
+  The aim of the project is create a Sokoban clone and write your own Sokoban solver.
+  </p>
+  
+  
+  <a href="http://en.wikipedia.org/wiki/Sokoban"> wikipedia on Sokoban </a>
+  
+  <a href="http://users.bentonrea.com/~sasquatch/sokoban/"> collection of levels (Sasquatch) </a></aims>
+  <challenges><p> The challenges in this project lie in:
+  <ul> 
+  <li>   building a robust game</li>
+  <li>   storing a game history to allow 'undos' </li>
+  <li>   dealing with very large search space </li>
+  <li>   problem analysis and problem solving </li>
+  </ul>
+  
+  </p></challenges>
+  <learning-outcomes><p> 
+  The student will learn about the complexity of algorithm, techniques to reduce a search space, solve problems in a systematic way
+  </p></learning-outcomes>
+  <end-product><p> A Sokoban clone with a build in solver</p></end-product>
+  <timetable>
+    <semester1><p> 
+    <ul>
+    <li> Analyzing required skills for the project </li>
+    <li> Gaining skills needed and write the Sokoban clone </li>
+    <li> reading about how to deal with large search spaces </li>
+    </ul>
+    </p></semester1>
+    <semester2><p> 
+    <ul>
+      <li>  creating simple solver</li>
+      <li>  increase functionality to load in benchmark levels </li>
+      <li>  improving the solver </li>
+      <li>  analyzing and evaluating your findings </li>
+    </ul>
+    </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference>
+  
+  <a href="http://en.wikipedia.org/wiki/Sokoban"> wikipedia on Sokoban </a>
+  
+  <a href="http://users.bentonrea.com/~sasquatch/sokoban/" > collection of levels (Sasquatch) </a></references>
+</project>
+<project label="95a22efc78ceb366a093bc05821f0a40">
+  <title>Sound Mixer-Editor</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>CO1003, CO1005, CO2006, CO2016. </p></prerequisites>
+  <aims><p>The aim of project is to create a teaching tool for CO2016. This tool should have the normal functions of sound mixer-editor and visualize the sound data at each state. Also it should have a 'plugin' option so that classes written by students will be used to manipulate the sound. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>Sound Handling</li><li>HCI: handling of different tracks and visualization of the sound</li><li>Imbedding of 3rd party code</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>Learn about complex techniques for handling sound.</li><li>Learn about securely run 3rd party classes in Java.</li><li>carry out a detailed requirements analysis and specification of the problem.</li> </ul> </p></learning-outcomes>
+  <end-product><p>The product of this project is a audio mixer-editor teaching tool for CO2016 as described above. </p></end-product>
+  <timetable>
+    <semester1><p>A detailed specification of the 'plugin' architecture. </p><p>Research and prototyping of the audio libraries in Java. </p><p>Prototyping the audio data handling and visualization. </p></semester1>
+    <semester2><p>Implementing, testing and documenting the product. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="dde230f16de4bb16f603c64a5f1ff2e2">
+  <title>Trading Game and AI</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Good programming skill in Java or C++. Enjoy problem solving and designing strategies. </p>
+  </prerequisites>
+  <aims><p>Consider the following trading game: There are three type of resources. In order to simplify we have red, blue and green colored balls. At the start each player is given a initial set of resources and scoring card. The scoring card tells each player how valuable a certain type of resources is for this player. Eg: Each red ball hive 5 points, each blue ball 3 points and each green 1 point. The scoring cards can be more complex, and each player has potentially a different scoring card.
+  
+  The aim of a player is maximize its own score by trading resources with other players.
+  
+  The protocol for the trading is round based. Players make offers and can accept or reject offers from other players.
+   </p>
+  
+  <p>
+  The aim of this project is to implement the game and write computer AI's to play the game.
+  </p>
+  
+  <p>
+  As the rules of the game are not fixed, there is scope to focus on:
+  <ol>
+  <li> restrict trading to neighboring players (in a circle, grid or any network) </li>
+  <li> more complex types of offer. One to many, Offers with a choice. E.G Want red ball, Give either 1 blue or 2 green.
+  </li>
+  <li> More complex rules on what information is available to the player. All accepted and rejected of another player.
+  </li>
+  <li>... </li>
+  </ol>
+  </p></aims>
+  <challenges><p> Design and implement the game control and protocol</p>
+  
+  <p> Create and evaluate computer players </p>
+  
+  <p> Design and test strategies </p></challenges>
+  <learning-outcomes><p> The student will learn about multi agents programs, the communications between them and programming computer player strategies. </p></learning-outcomes>
+  <end-product><p> A trading game with computer players</p></end-product>
+  <timetable>
+    <semester1><p> Design the game </p>
+    <p> Analyzing skill needed to complete the project </p>
+    <p> Gaining the skill while prototyping </p>
+    <p> Write game with dummy AI </p>
+    
+    </semester1>
+    <semester2><p> Improve and finalize the game</p>
+    <p> Design computer strategies </p>
+    <p> Implement, test and evaluate the computer strategies </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="d70e7a148e04625fe8d127060075f899">
+  <title>Two Tape Automata</title>
+  <supervisor>
+    <mh55 />
+  </supervisor>
+  <hidden>hidden</hidden>
+  <prerequisites><p>This project requires familiarity with the module CO2011 and also knowledge of programming (as may be found in CO1003 and CO1004, or in equivalent modules). </p></prerequisites>
+  <aims><p>Finite state automata were introduced in the module CO2011. A two tape finite state automaton can read two taped either synchronously or asynchronously. In the project we will focus on the former one. </p><p>There are several interesting operation on these automata. For example converting a two tape automaton to a normal finite state automaton by restricting the 2nd tape. These operation are important in designing algorithm in recent research projects. </p><p>The idea of this project would be to build a tool that would simulate operation on two tape automata. Analysing which data structure for two tape automata would give which complexity bounds for the above operations. </p></aims>
+  <challenges><p>The challenges of this project can be found in the following areas<ul><li>Handling of data in different formats and their conversion</li><li>Understanding and implementing of advanced operation involving two tape automata</li><li>Implementation and visualisation of efficient algorithms</li> </ul> </p></challenges>
+  <learning-outcomes><p>The student will:<ul><li>Learn some advanced material (such as the method of combining 2 two tape automata to one.).</li><li>Construct a tool for representing two tape automata and operations on them.</li><li>Design a tool for simulating the action of a two tape automaton.</li><li>Combine these tools into a general purpose tool for two tape automata.</li> </ul> </p></learning-outcomes>
+  <end-product><p>A tool allowing to create two tape automata and perform operations on them. </p></end-product>
+  <timetable>
+    <semester1><p>Review finite state automata. Research some further material on two tape automata and related subjects. Specify the tools to be implemented. Decide on the data structure. Prototyping simple displays of automata. </p></semester1>
+    <semester2><p>Design, implement and test the system. Analysis the findings (decidability/complexity). Improve the algorithm. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>J E Hopcroft and J E Ullman</author>
+  <article>Introduction to Automata Theory, Languages and Computation</article>
+  <published year="1979">Addison-Wesley</published>
+  </reference></references>
+</project>
+<project label="43f2b71a672d30472f394676a7a8efec">
+  <title>A Map based faceted browser for Open street map data</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p> Good programing and database design skills skills</p></prerequisites>
+  <aims><p> To build a faceted browser using maps and GIS using open street map data  </p></aims>
+  <challenges><p>Understanding open street maps data, understanding the technique of faceted browsing </p></challenges>
+  <learning-outcomes><p> A good insight into developing faceted browsers using maps</p></learning-outcomes>
+  <end-product><p> A map based faceted browser</p></end-product>
+  <timetable>
+    <semester1><p> </p></semester1>
+    <semester2><p> </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="962eed61738a23935f4acb0cd7741942">
+  <title>A content management systems for opticians</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p> Good Java programming skills, software engineering, database design</p></prerequisites>
+  <aims><p> The aim of this project is to build a content management system for opticians based on Drupal or Joomla which are open source content management systems </p></aims>
+  <challenges><p> Understanding how opticians work, understanding Drupal developing the content management systems</p></challenges>
+  <learning-outcomes><p> </p></learning-outcomes>
+  <end-product><p> A content management system for opticians</p></end-product>
+  <timetable>
+    <semester1><p> </p></semester1>
+    <semester2><p> </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="12c2e016fb6223f428c00ef314ebf2ea">
+  <title>A flight scheduler</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <prerequisites><p>Knowledge of graph traversal algorithms </p></prerequisites>
+  <aims><p>The aim of this project is to implement a flight scheduler using Dijkstra's algorithm for finding the shortest path </p><p>Suppose you are given a timetable which consists of a set A of n airports, and for each airport a in A, a minimum connection time c(a). </p><p>A set F of m flights and the following for each flight f in F </p><ul><li>Origin airport a1(f) in A</li><li>Destination airport a2(f) in A</li><li>Departure time t1(f)</li><li>Arrival time t2(f)</li> </ul><p>The main objective is to design an efficient algorithm for the flight scheduling problem. There are two airports a and b and a time t. the algorithm should compute the the sequence of flights that allows one to arrive at the earliest possible time in b when departing from a at or after time t. Minimum connecting time at intermediate airports should be observed. </p></aims>
+  <challenges><p>problem analysis, graph traversal algorithms, implementation </p></challenges>
+  <learning-outcomes><p>understanding Dijkstra's algorithm for finding the shortest path, Understanding general graph traversal algorithms, implementing the algorithms </p></learning-outcomes>
+  <end-product><p>An implementation of Dijkstra's algorithm for finding the shortest path </p></end-product>
+  <timetable>
+    <semester1><p>Understanding background material, pseudo code for the algorithm, </p></semester1>
+    <semester2><p>implemented algorithm </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Data Structures and Algorithms in Java,Michael T. Goodrich and Roberto Tamassia</author>
+  </reference></references>
+</project>
+<project label="2ca4688b1b256e22a8bac97f82ad6dca">
+  <title>A web based cyber cafe management system</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <hidden>hidden: lot of students took this project</hidden>
+  <prerequisites><p>Knowledge of programming web based applications, programming distributed systems </p></prerequisites>
+  <aims><p>The objective of this project is to develop a web based pay-as-you-go cyber cafe management system. The system should provide the following functionality </p><ul><li>The capability to record the time spent on internet usage for every machine in the cyber cafe.</li><li>Once a user is logged into the computer, the system should be able to trace every site visited by the user.</li><li>A billing system that presents the user with the amount to be paid, once the user logs out. The bill should include the exact times the user connected and disconnected.</li><li>Maintaining a database of all internet usage for a customer</li> </ul></aims>
+  <challenges><p>connecting the server to the different client machines in the cyber cafe, designing a web based user interface </p></challenges>
+  <learning-outcomes><p>Knowledge of building real time web based applications and user interfaces </p></learning-outcomes>
+  <end-product><p>A web based cyber cafe management system. </p></end-product>
+  <timetable>
+    <semester1><p>Understanding the development of web based application, developing prototypes and interfaces </p></semester1>
+    <semester2><p>The complete implementation system and report </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Articles and Books on developing web based applications</author>
+  </reference></references>
+</project>
+<project label="97f1b1eeaa0a85d8b1efb9a6659f00f4">
+  <title>Automatic image annotation using social network based machine learning</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p> Programming skills, database skills, social networks </p></prerequisites>
+  <aims><p> The aim of this project is to develop an automated image annotation system using metadata derived from social networks</p></aims>
+  <challenges><p> Understanding social networks, understanding how images can be automatically annotated, developing the automated annotation system.  </p></challenges>
+  <learning-outcomes><p> </p></learning-outcomes>
+  <end-product><p> An automated image annnotation system</p></end-product>
+  <timetable>
+    <semester1><p> </p></semester1>
+    <semester2><p> </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="957389003add5c861c96d064514c2960">
+  <title>Castle of Asymptopia</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <prerequisites><p>Knowledge of the Graph ADT, understanding of developing user interfaces in java </p></prerequisites>
+  <aims><p>The aim of this project is to implement "The Castle of Asymptopia". Inside the Castle of Asymptopia there is a maze and along each corridor there is a bag of gold coins. The amount of gold in each bag varies. A noble knight, named Sir Paul(a player) is given the opportunity to walk through the maze, picking up bags of gold. He may enter the maze only through a door marked "ENTER" and exit through another door marked "EXIT". While in the maze he may not retrace his steps. Each corridor of the maze has an arrow painted on the wall. Sir Paul may only only go down the corridor in the direction of the arrow. There is no way to traverse a "loop" in the maze. The software requires implementing a suitable algorithm to navigate through the maze. Given a map of the maze, including the amount of gold in each bag and the direction of each corridor, implement an algorithm that can help Sir Paul pick up the most gold. </p></aims>
+  <challenges><p>problem analysis, graph traversal algorithms, implementation, 2D and 3D graphics. </p></challenges>
+  <learning-outcomes><p>Understanding graph traversal algorithms, implementing the algorithms, understanding Java user interfaces, 2D and 3D graphics. </p></learning-outcomes>
+  <end-product><p>An implementation of a graph traversal algorithm that can be extended to become a full fledged game. </p></end-product>
+  <timetable>
+    <semester1><p>Reading of background material, psuedo code for the algorithm, prototype user interface </p></semester1>
+    <semester2><p>Completed implementation and report </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Data Structures and Algorithms in Java,Michael T. Goodrich and Roberto Tamassia</author>
+  </reference></references>
+</project>
+<project label="bdbf532cbd8b8479f8b0bd1a2692551b">
+  <title>Ticket booking system for mobile devices</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <hidden>Many people took the project last year</hidden>
+  <prerequisites><p>Knowledge of programming in java, developing user interfaces, databases. </p></prerequisites>
+  <aims><p>The aim of this project is to build a Theater ticket booking system for mobile devices using Java ME. Java Platform, Micro Edition (Java ME) provides a robust, flexible environment for applications running on mobile and other embedded devices, mobile phones, personal digital assistants (PDAs), </p><p>The application should allow a user to book tickets using their mobile devices. Information regarding tickets, venues, shows and timings are stored in an open source SQL database. The application should allow a user to seacrh for shows, choose a venue, select timings and then book tickets. </p></aims>
+  <challenges><p>programming mobile devices, Java ME </p></challenges>
+  <learning-outcomes><p>A good understanding of how to build applications for mobile devices, the Java ME framework. </p></learning-outcomes>
+  <end-product><p>An application for booking tickets via mobile devices </p></end-product>
+  <timetable>
+    <semester1><p>Learning the Java ME framework, learning various other markup languages for mobile devices, understanding the open source database chosen for the project. </p></semester1>
+    <semester2><p>Programming the application, producing a report </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Java ME framework, WML, WAP, MySQL</author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="e513b3080c00f4c16c79bcc8b3f8067e">
+  <title>Using Wordnet for detecting plagiarism</title>
+  <supervisor>
+    <ms491 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p> Java programming skills, software engineering</p></prerequisites>
+  <aims><p> The aim of this project is to investigate the use of Wordnet for detecting plagiarism. This will be done  by automatically producing new versions of a given document.</p></aims>
+  <challenges><p> Understanding wordnet, understanding how document similarity is measured in plagiarism detection systems. Developing an automated system to produce a new document from an old document using wordnet output.  </p></challenges>
+  <learning-outcomes><p> Understanding wordnet, understanding plagiarism detection systems. </p></learning-outcomes>
+  <end-product><p> A wordnet based plagiarism detector </p></end-product>
+  <timetable>
+    <semester1><p> </p></semester1>
+    <semester2><p> </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="a850e6deb86427cc007d1651a2f12994">
+  <title>A Steganography Tool using Media Files</title>
+  <supervisor>
+    <pyf1 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Programming skills. Understanding of multimedia encoding as given in CO3096 would be helpful. </p></prerequisites>
+  <aims><p>Steganography is the hiding of secret messages. Unlike cryptography, here even the existence of the secret message needs to be hidden. Modern ways of steganography typically utilises media files like image, sound or video files, and makes "small" changes in the files (e.g. least significant bits of each colour of pixels in an image) that are unnoticeable to humans to encode a message. </p><p>The aim of this project is to develop a software tool to encode and recover secret messages from media files using these techniques. Ideally it should support different types of media or different formats and support different amount of information to be encoded (and varying levels of degradation to the media). Note that it may be easier to make unnoticeable changes in some media formats (e.g. bmp, wav) than others (e.g. jpg, mp3) because of way the data is encoded. </p></aims>
+  <challenges><p><ul><li>Understanding of a number of media file formats and encoding methods.</li><li>Implementation so as to minimize the degradation in media quality while maximizing the amount of secret information encoded.</li> </ul> </p></challenges>
+  <learning-outcomes><p>Upon successful completion of the project, the student should gain good knowledge on a number of media formats, as well as skills and experience in programming to manipulate such media files. </p></learning-outcomes>
+  <end-product><p>A software tool for steganography using media files. </p></end-product>
+  <timetable>
+    <semester1><p>Study of media formats; system design; prototype. </p></semester1>
+    <semester2><p>Implementation; testing; evaluation. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="9138a45e6d75d3cb13e1af81411cf3c8">
+  <title>A Timetable Management Tool</title>
+  <supervisor>
+    <pyf1 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Programming skills in web technologies. </p></prerequisites>
+  <aims><p>Every year the departmental timetable officer produces the department's timetable for the next academic year. One of the most problematic aspects is to keep track of a variety of different constraints, with some arriving <i>very</i> late, and thus there is a need for easily updating the timetable to satisfy these new constraints (and at the same time not violating other existing constraints). </p><p>The aim of this project is to develop a timetabling system to serve this purpose. It will be based on the product of a previous project, which supports updating the timetable by dragging items in a grid view, in a Google-calendar-like way. However, for a number of reasons, it is not completely satisfactory and cannot be put to real use, and further development is needed. </p><p>The software <b>must</b> implement exactly what the client (the departmental timetable officer) wants; success of the project will be judged by to what extent the timetable officer (and possibly other users) is satisfied. </p><p>It is impossible to list all requirements beforehand - in fact this is part of the project, and the software should be developed in an "agile" and "incremental" way to satisfy this - but it includes at least the following: </p><ol><li>constraint checking (both "responsive mode", i.e. immediately after a change is made, and "batch mode", i.e. check the entire database);</li><li>handling recurring and non-recurring events properly;</li><li>interface to the <a href="https://campus.cs.le.ac.uk/ForStudents/labTimTables">department's Google calendar account</a>;</li><li>Works on the department's computing platform.</li></ol><p>A warning to potential students: this project is different from what you may think as a "typical" timetable project; if you googled "timetable project" and come up with a few keywords and think you know what this is, then it is more likely that you got it wrong. In particular, we are not looking at producing a timetable automatically. </p></aims>
+  <challenges><p>Capture complicated, sometimes ambiguous, user requirements; deal with evolving requirements; use of advanced web technologies. </p></challenges>
+  <learning-outcomes><p>Successful completion of the project should provide student with skills and experience in using advanced web technologies in a real-life scenario, and the software engineering experience in dealing with evolving requirements and flexible software development. </p></learning-outcomes>
+  <end-product><p>A web-based software system for managing the departmental timetable. </p></end-product>
+  <timetable>
+    <semester1><p>Learn relevant web technologies; understand functionalities and limitations of existing system; capture new requirements; software system modelling and design; implementation and testing; go back to step 3. </p></semester1>
+    <semester2><p>Continue with the requirement-modelling-coding-testing pattern of incremental/spiral development in semester 1. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="0aa98cb1d1cadc55a6b2cc2b620fde90">
+  <title>An Automatic Cryptanalysis Tool for Classical Ciphers</title>
+  <supervisor>
+    <pyf1 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Programming skills in C++/Java. (CO3099 will provide useful material, but as it is a second semester module, the background research have to be done before the module is taken.) </p></prerequisites>
+  <aims><p>Cryptography is the study of secret writing. There are many methods to encrypt data, with varying degree of security. Cryptanalysis concerns the breaking of these ciphers by exploiting the mathematical or statistical patterns of the encrypted message. For example, the well-known Vigenere cipher can be broken by studying the frequency of each of the letters in the ciphertext. Various statistical tests can also help to determine the ciphers or keys being used. </p><p>The aim of the project is to produce a software using C++/Java which automatically (without user intervention) recover an encrypted message as accurately as possible, without necessarily knowing the ciphers used. The ciphers to be considered are likely to be classical substitution and transposition ciphers like Vigenere and Hill cipher. </p></aims>
+  <challenges><p>Research into and implementation of cryptanalysis algorithms. </p></challenges>
+  <learning-outcomes><p><ul><li>Understanding of secret key cryptography algorithms and techniques of cryptanalysis.</li><li>Skills and practice of designing and implementing a large-scale software system following an established software engineering process.</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software package for analysing ciphertext for a number of ciphers using different tests and tools. </p></end-product>
+  <timetable>
+    <semester1><p>Research into cryptanalysis; system design. </p></semester1>
+    <semester2><p>Implementation; testing. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>W. Stallings</author>
+  <volume>Cryptography and Network Security. Prentice Hall</volume>
+  <published year="2006"></published>
+  <note>(Chapter 2)</note>
+  </reference><reference>
+  <author>S. Singh</author>
+  <volume>The Code Book</volume>
+  <published year="1999"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="9bd582bf78b66f3fc2e67f1f28056d65">
+  <title>An Interactive Cryptanalysis Tool for Classical Ciphers</title>
+  <supervisor>
+    <pyf1 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Programming skills in C++/Java or web-based languages. (CO3099 will provide useful material, but as it is a second semester module, the background research have to be done before the module is taken.) </p></prerequisites>
+  <aims><p>Cryptography is the study of secret writing. There are many methods to encrypt data, with varying degree of security. Cryptanalysis concerns the breaking of these ciphers by exploiting the mathematical or statistical patterns of the encrypted message. For example, the well-known Vigenere cipher can be broken by studying the frequency of each of the letters in the ciphertext. Various statistical tests can also help to determine the ciphers or keys being used. </p><p>The aim of the project is to produce a software, either stand-alone or web-based, which recover an encrypted message, without necessarily knowing the ciphers used. If the amount of ciphertext is too little or it has unusual statistical patterns, it is very difficult to recover the message correctly automatically; hence, the system aims to work interactively with the user by providing the ability to perform dictionary search, pattern matching, computation of statistical data, etc., and allowing the user to iteratively make informed guesses to break the cipher. The ciphers to be considered are likely to be classical substitution and transposition ciphers like Vigenere. </p></aims>
+  <challenges><p>Research into and implementation of cryptanalysis algorithms. </p></challenges>
+  <learning-outcomes><p>Successful completion of the project will give students a good understanding of secret key cryptography algorithms and techniques of cryptanalysis. Students will also develop skills in designing and implementing a large-scale software system using an established software engineering process. </p></learning-outcomes>
+  <end-product><p>A software package for analysing ciphertext for a number of ciphers using different tests and tools. </p></end-product>
+  <timetable>
+    <semester1><p>Research into cryptanalysis; system design. </p></semester1>
+    <semester2><p>Implementation; testing. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>W. Stallings</author>
+  <volume>Cryptography and Network Security. Prentice Hall</volume>
+  <published year="2006"></published>
+  <note>(Chapter 2)</note>
+  </reference><reference>
+  <author>S. Singh</author>
+  <volume>The Code Book</volume>
+  <published year="1999"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="de19f36a662ccc411547792bef423b72">
+  <title>Simulation of Packet Buffering Algorithms</title>
+  <supervisor>
+    <pyf1 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Programming skills and experience in Java/C++. Knowledge in algorithms would be helpful. </p></prerequisites>
+  <aims><p>Today's networks are "best-effort" in the sense that all packets are equal and there is no guarantee for packet delivery. Next-generation networks will support Quality of Service (QoS) where different packets can receive different treatment, according to their priority. Recent research has derived a number of algorithms for packet buffering supporting QoS with theoretical performance guarantees. We aim to implement some of these algorithms and evaluate their practical performance. </p><p>The aim of this project is to design and implement a software package using Java/C++ to simulate a number of network switching and packet buffering algorithms supporting QoS. As a minimum, the project should consider the "bounded delay model" with a single finite-size buffer; but other models and variations can be investigated (see references below). </p><p>The program should be able to generate random input instances according to some statistical distribution, and/or allow users to easily specify the input manually. The program should display the simulation process and results in a user-friendly format, and output various measures on the effectiveness of the algorithms (e.g. the percentage of high-priority packets that get delivered within their time limits). The program should ideally be modular so that new algorithms can be incorporated relatively easily. If possible, new heuristics to enhance the performance of the algorithms should be investigated. </p></aims>
+  <challenges><p><ul><li>Visualizing the operation of packet buffering algorithms in a user-friendly manner.</li><li>Modular design for easy incorporation of new algorithms.</li><li>Investigate new heuristics to improve the performance of these algorithms</li> </ul> </p></challenges>
+  <learning-outcomes><p><ul><li>Understanding of Quality of Service issues in networks, and the algorithms involved.</li><li>Skills in the design and implementation of a simulation system with an appropriate user interface.</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software package for simulation of packet buffering algorithms. </p></end-product>
+  <timetable>
+    <semester1><p>Research on packet buffering algorithms; specification and design of software; prototype. </p></semester1>
+    <semester2><p>Implementation of software; testing; evaluation of algorithms; introduce new heuristics. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>S. Fung</author>
+  <volume>Bounded Delay Packet Scheduling in a Bounded Buffer</volume>
+  <published year="2010">available from supervisor.</published>
+  <note></note>
+  </reference>
+  <reference>
+  <author>Y. Azar and N. Levy</author>
+  <volume>Multiplexing Packets with Arbitrary Deadlines in Bounded Buffers</volume>
+  <published year="2006">Proceedings of 10th Scandinavian Workshop on Algorithm Theory</published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="deac5a98071171d4bfbd21eb8215724b">
+  <title>The Racetrack Game</title>
+  <supervisor>
+    <pyf1 />
+  </supervisor>
+  <hidden></hidden>
+  <prerequisites><p>Programming skills; knowledge in basic algorithms.  Students are strongly encouraged to take CO3002. </p></prerequisites>
+  <aims><p>The racetrack game, also called under various other names, is a pencil-and-paper game where players have to "drive" around a track. In each step the horizontal/vertical velocities can be changed by at most +1/-1. See the reference section below for more details of the rules. </p><p>The aim of the project is to implement such a game as either a web-based or a standalone application. In addition, an algorithm for finding the optimal race line, given any track, should also be implemented. Such an algorithm can then be used, for example, as a computer player. The game should also allow users to "draw" and design a track. </p></aims>
+  <challenges><p>Implement algorithms for finding optimal race lines; Design and implement user interfaces not just for playing the game but also designing tracks. </p></challenges>
+  <learning-outcomes><p>Successful completion of the project should give the student skills and experience in programming using a language of his/her choice; and an understanding of such DP/flow/shortest paths based algorithms. </p></learning-outcomes>
+  <end-product><p>A software implementing such a game. </p></end-product>
+  <timetable>
+    <semester1><p>Background research; system design; prototype.</p></semester1>
+    <semester2><p>Algorithm design and implementation, computer player; testing.</p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Racetrack (game)</author>
+  <volume>Wikipedia, http://en.wikipedia.org/wiki/Racetrack_(game)</volume>
+  <published year="2010"></published>
+  <note></note>
+  </reference><reference>
+  <author>J. Erickson</author>
+  <volume>How hard is optimal racing? http://3dpancakes.typepad.com/ernie/2009/06/how-hard-is-optimal-racing.html</volume>
+  <published year="2009"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="ecfba50f48a97305c6bfd7dcf3575246">
+  <title>A Scrabble Computer Player</title>
+  <supervisor>
+    <rlc3 />
+  </supervisor>
+  <prerequisites><p>Ability to programme in Java, C++ or a similar langauge. </p></prerequisites>
+  <aims><p>The aim is to write a computer program that can play scrabble against a human player, and perhaps against other machines. </p></aims>
+  <challenges><p>The key challenges are to understand suitable game playing algorithms; and methods of dictionary storage. This will require some algorithms theory, and some simple automata minimalisation (for the dictionary). The GUI will also require careful thought if it is to be a good one. Note that although many people can produce adequate players, implementing one of high quality is not as easy as one might think. </p></challenges>
+  <learning-outcomes><ul><li>You will understand the game of scrabble in detail.</li><li>You will be able to describe, and code, efficient game playing algorithms.</li><li>You will be able to describe, and code, efficient dictionary storage and access systems.</li><li>You will be able to produce good GUIs for this and similar games.</li> </ul></learning-outcomes>
+  <end-product><p>A computer program that can play scrabble, with a very good user interface, and efficient playing strategy. </p></end-product>
+  <timetable>
+    <semester1><p>literature and product survey; understanding and selection of playing algorithms; research into dictionaries; a prototype system which can play a very simplified game of scrabble; specification and design of the final system. </p></semester1>
+    <semester2><p>Completion of design; implementation of game; simple user manual; final report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published></published>
+  <note>References can be obtained from Dr.~Roy~Crole.</note>
+  </reference></references>
+</project>
+<project label="28d1fee9f0c0baf0c0b8bc4e4bffe933">
+  <title>A Simple Theorem Prover</title>
+  <supervisor>
+    <rlc3 />
+  </supervisor>
+  <prerequisites><p>This project requires familiarity with the module CO2008. It is also essential that you enjoyed the logic which you studied in CO1011. </p></prerequisites>
+  <aims><p>A theorem prover is a program which enables theorems (often of some logical system) to be derived in a (semi) automated fashion. Theorem provers have been used to study problems in mathematics, and for the verification of both hardware and software systems. This project will give you a chance to design and implement a simple theorem prover. </p></aims>
+  <challenges><p>The key challenge is to understand how a theorem prover works in theory, and the principles of implementing a prover. Once the key software structures of a theorem prover are understood, one can fairly rapidly build one that is reasonably powerful. Many stages of this project are technically challenging. </p></challenges>
+  <learning-outcomes><ul><li>To give an account of a simple logic;</li><li>a coding of the logic's syntax in Haskell or ML;</li><li>implementation of a simple theorem prover for the logic;</li><li>design and implementation of a GUI for the theorem prover.</li> </ul></learning-outcomes>
+  <end-product><p>A software system which has as inputs statements in a logic, and outputs formal proofs of these statements (whenever the statement is a theorem of the logic.) </p></end-product>
+  <timetable>
+    <semester1><p>Review of logics; studying the principals of simple theorem provers; specifying and designing a theorem prover; initial coding. </p></semester1>
+    <semester2><p>Completion of the coding; construction of an interface; project write up. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>L. Paulson</author>
+  <volume>ML for the Working Programmer (Second Edition)</volume>
+  <published year="1999">Cambridge University Press</published>
+  <note>Further references can be obtained from Dr.~Crole.</note>
+  </reference></references>
+</project>
+<project label="d3181a1d64b34af0f62b077c92745e24">
+  <title>A Simulation of a Processor Architecture</title>
+  <supervisor>
+    <rlc3 />
+  </supervisor>
+  <prerequisites><p>Knowledge of a high level programming language (functional or object oriented), and of simple details of a microprocessor, such as that found in CO1016. </p></prerequisites>
+  <aims><p>This project will involve the development of a simple simulator for basic microprocessors, using either a functional language or an object oriented language. Simulations for both register and stack based machines could be developed, along with a suitable front end GUI. The purpose of the project is to develop a tool which could be used for teaching simple computer architecture. </p></aims>
+  <challenges><p>The key challenge here is to decide on a suitable approach to this project. There are many choices for simple instruction sets, many ways to parse in the instructions, many ways to display the animated processor and so on. Once your approaches to the components are made, progressing the project should be reasonably smooth. </p></challenges>
+  <learning-outcomes><p>The outcomes will consist of some or all of the following, but will not be restricted to the list below which is to act as a guide </p><ul><li>A description of a simple model processor (ISA) at a very high level;</li><li>specification and design of a model, using either objects or functions;</li><li>implementation of the model; and</li><li>design and implementation of a GUI.</li> </ul></learning-outcomes>
+  <end-product><p>A GUI based software system, which will take a simple assembly language program as input, and run the program (simulate its execution) on an interpreter model of a CPU. The program execution will be visually traced, and processor statistics will be displayed. </p></end-product>
+  <timetable>
+    <semester1><p>Review the ideas of microprocessors and simple assembler. Conduct a literature survey. Specify a simple processor and instruction set, followed by a detailed design. </p></semester1>
+    <semester2><p>Begin coding the simulator, modifying the design if need be. Construct a GUI. Complete a project dissertation. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Steve Hill</author>
+  <volume>The Functional Simulation of a Simple Microprocessor</volume>
+  <published year="1994">Unpublished report</published>
+  </reference></references>
+</project>
+<project label="31f36708a676a81b38449d962ed5b9b4">
+  <title>Animating Cache Memory Models</title>
+  <supervisor>
+    <rlc3 />
+  </supervisor>
+  <prerequisites><p>Knowledge of the basic construction of a modern computer processor, and in particular some acquaintance with the idea of cache memory. Familiarity with simple binary arithmetic. Proficiency with a modern object-oriented or functional programming language. </p></prerequisites>
+  <aims><p>A modern computer utilizes a cache. This is an area of memory "positioned" between the CPU and the main memory. The idea is that the CPU memory is small but fast, whereas main memory is large but slow. This leads to potential inefficiencies in the organization of data flow between CPU and memory, and the cache is used to alleviate these problems. The aim of the project is to understand how cache systems work, and then to design and implement a GUI based cache animator. </p></aims>
+  <challenges><p>There are a variety of different cache models, and some are quite intricate. It will be a challenge to understand the key aspects of some models, and to understand them well enough in order to be able to animate them on a computer. </p></challenges>
+  <learning-outcomes><p>These will consist of some or all of<ul><li>Knowledge and written account of the theory of computer caches</li><li>Specification, design and implementation of a software package for the animation of computer cache circuits and algorithms</li><li>A library of test examples and calculations</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software package which will yield animation of cache circuits and their associated algorithms for efficient memory use. The system will have a user friendly graphical user interface, and will allow the user to select different cache designs and algorithms, providing the user with a graphical illustration of how the cache systems work. </p></end-product>
+  <timetable>
+    <semester1><p>Research and background reading into computer cache history; research into modern circuits and algorithms; the specification, design and implementation of very simple circuits and algorithms for cache management </p></semester1>
+    <semester2><p>the specification, design and implementation of advanced circuits and algorithms for cache management; testing and documentation for the system </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>W. Stallings</author>
+  <volume>Computer Organization and Architecture (Sixth Edition)</volume>
+  <published year="2003">Prentice Hall</published>
+  <note>Further references can be obtained from Dr. R. L. Crole</note>
+  </reference></references>
+</project>
+<project label="dfbeecf6ef553650c5e8dc0c50d9161c">
+  <title>Animating Digital Arithmetic</title>
+  <supervisor>
+    <rlc3 />
+  </supervisor>
+  <prerequisites><p>Knowledge of the basic construction of a modern computer processor, and in particular the functions of an Arithmetic Logic Unit. Familiarity with very simple binary arithmetic. Proficiency with a modern object-oriented or functional programming language. An interest in algorithms for arithmetic. </p></prerequisites>
+  <aims><p>Although the addition and subtraction of binary integers is quite straightforward, multiplication and division are more complicated. Further, efficient implementations of each of these operations requires some care. If one also considers floating point arithmetic, then the issues become even more involved. This project will require some background research into the history of computer arithmetic, followed by the design of computer software which will provide graphical animations of the circuits and/or algorithms used in modern computer arithmetic. </p></aims>
+  <challenges><p>At first sight this is an easy project. This is true of some aspects. However, there is a lot to be done, for example as well as integers, one can consider floating point numbers, and most importantly the algorithms for multiplication and division are fairly involved. Students must understand two or three such, and then implement on of them, perhaps outling the theory of the remaining one or two. </p></challenges>
+  <learning-outcomes>These will consist of some or all of<ul><li>Knowledge and written account of the history of computer arithmetic</li><li>Knowledge and written account of the theory of computer (digital/binary) arithmetic</li><li>Specification, design and implementation of a software package for the animation of computer arithmetic circuits and algorithms</li><li>A library of test examples and calculations</li> </ul></learning-outcomes>
+  <end-product><p>A software package which will yield animation of digital circuits and their associated algorithms for computing basic arithmetic. The system will have a user friendly graphical user interface, and will allow the user to select different circuit designs and algorithms, followed by the input of test calculations whose execution details will be displayed on the screen. </p></end-product>
+  <timetable>
+    <semester1><p>Research and background reading into computer arithmetic history; research into modern circuits and algorithms; the specification, design and implementation of very simple circuits and algorithms for arithmetic </p></semester1>
+    <semester2><p>the specification, design and implementation of advanced circuits and algorithms for arithmetic, such as floating point; the creation of a library of test examples; testing and documentation for the system </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Hennessy and Patterson</author>
+  <volume>Computer Organization and Design. (Third edition.)</volume>
+  <published year="2003?">Morgan Kaufmann</published>
+  <note>Further references can be obtained from Dr. R. L. Crole</note>
+  </reference></references>
+</project>
+<project label="ea956687ac5670c68a73e836811d496c">
+  <title>Implementing Operational Semantics</title>
+  <supervisor>
+    <rlc3 />
+  </supervisor>
+  <prerequisites><p>This project requires familiarity with either a functional or object oriented programming language. If you enjoyed CO2008 Functional Programming you are likely to enjoy this project which is ideally suited to coding in a functional style; however coding in OO style is also quite acceptable. A short version of this project is also ideal for a 20 credit Maths and Computer Science project. </p></prerequisites>
+  <aims><p>Programming languages can be specified at different levels of abstraction. At the lowest level we have processor microprogramming, and at the highest we have programming languages such as Haskell and Java. A method known as structured operational semantics (SOS) allows computer scientists to describe the syntax (written language) and semantics (the meaning or execution behaviour) of high level languages, without concern for the complication of low level machine detail. In fact, a SOS amounts to a description of an interpreter. </p><p>The aim of this project is to study a simple high level language (let's call it L) by describing L using a SOS, and then implementing the SOS-interpreter for L within a real language such as C++, JAVA or Haskell. </p></aims>
+  <challenges><p>This is a reasonably challenging project, but the reward will be learning a great deal about the ways in which high level languages can be defined, and the ways in which they execute. Also, this project ties up very well with the module CO3008, Semantics of Programming Languages. The key challenges are to understand how a collection of syntax "rules" can be used to give a high level description of run-time behaviour; and how to turn such rules into interpreter code. </p></challenges>
+  <learning-outcomes><ul><li>An account of the SOS of a simple language L.</li><li>Review of an appropriate programming language in which the SOS will be implemented.</li><li>The construction of a parser for L.</li><li>The implementation of the SOS-interpreter for L (this will be a substantial part of the project).</li> </ul></learning-outcomes>
+  <end-product><p>Implementation of SOS-interpreter, including a user friendly interface. The inputs will be simple L programs, and the outputs will be illustrations of the execution of the L program. </p></end-product>
+  <timetable>
+    <semester1><p>Review/learn an appropriate programming language, study the SOS of a small high level language L, specify and design the SOS-interpreter. </p></semester1>
+    <semester2><p>Implement the SOS-interpreter, build a GUI, and write up project report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published></published>
+  <note>References can be obtained from Dr.~Roy~Crole.</note>
+  </reference></references>
+</project>
+<project label="9694ec5dde6a6020dadf3f630a0cdf54">
+  <title>Active Contours</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p>Graphic and image processing skills, some mathematics, good programming skills </p></prerequisites>
+  <aims><p>Active Contour, also called Snakes, is a framework for delineating an object outline from a possibly noisy 2D image. </p><p>Given an initial starting shape and positon on an image contour changes shape (deforms) until it reaches a state of convergance. This model is highly popular in Computer Vision, and led to several developments in 2D and 3D. </p><p>To illustrate, here is an Active Contour given an initial position and shape on a heart magnetic resonance image (MRI) scan. It converges to successfully find the heart. </p><p> </p><p>Your task for this project would be to implement an Active Contour and apply it to a real life dataset of images. </p></aims>
+  <challenges><p><ul><li>Familiarising oneself with Active Contour literature - good practice for a student considering a career in research</li><li>Familiarisation with dataset</li> </ul> </p></challenges>
+  <learning-outcomes><p><ul><li>Computer Vision</li><li>2D image manipulation</li><li>Research skills</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software tool to allow use of Active Contour on a user-selected image. </p></end-product>
+  <timetable>
+    <semester1><p><ul><li>Reading of background material.</li><li>Prototype</li> </ul> </p></semester1>
+    <semester2><p>Completed project + report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Andrew Blake and Michael Isard</author>
+  <volume>Active Contours</volume>
+  <published year="2000"></published>
+  <note>Available online at <a href="http://www.robots.ox.ac.uk/~contours/">author website</a></note>
+  </reference></references>
+</project>
+<project label="069da939fc4b036bb40d8eeab523ca2f">
+  <title>Gaming with Augmented Human Computer Interface</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p><ul><li>Good knowledge of a programming language (Java, C++, C#, .NET etc.)</li><li>multimedia skills</li><li>knowledge of UML</li><li>capability of understanding new technology</li><li>strong presentation skills.</li> </ul> </p></prerequisites>
+  <aims><p>The human computer interface paradigm has evolved in recent years. No longer is interacting with a computer game necessarily a sedentary activity. Systems such as the EyeToy and Wii now use webcam and remote sensing technology to allow active participation in the game. The goal of the project(s) is to implement a computer game (or if time allows a suite of games) controlled by such means (most likely by webcam but ultimately up to the student). The exact game to implement is negotiable, but the actual game itself should be kept to a comfortable level of difficulty for the student. </p><p>Requirements for this project include </p><ul><li>Single player mode against an intelligent computer player</li><li>Multiplayer competitive functionality (simultaneous or turn-based depending on nature of game).</li><li>Investigation of different algorithms/methods for control and their effect on game playability</li><li>Expansion of control mechanism to multiple games</li><li>Playable when projected from computer</li><li>Portability, program should be easily moved from one computer to another. Cross-platform compatibility is also desirable.</li> </ul></aims>
+  <challenges><p>The need to learn to implement new technology, as well as potentially some image processing or remote sensing skills. </p></challenges>
+  <learning-outcomes><p>Understanding image processing/remote sensing, Experience of game programming </p></learning-outcomes>
+  <end-product><p>Complete working game </p></end-product>
+  <timetable>
+    <semester1><p>Design documentation </p><p>Early implementation of prototype, this could be the game controlled by conventional means (i.e. by keyboard) along with some indication of early implementation of the new HCI. </p></semester1>
+    <semester2><p>Report </p><p>Completed Game </p></semester2>
+  </timetable>
+  <references>To be given on beginning of project.</references>
+</project>
+<project label="9f69408446b02f53d0c6a06d437fd670">
+  <title>Gaming with Augmented Human Computer Interface Breakout</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p><ul><li>Good knowledge of a programming language (Java, C++, C#, .NET etc.)</li><li>multimedia skills</li><li>knowledge of UML</li><li>capability of understanding new technology</li><li>strong presentation skills.</li> </ul> </p></prerequisites>
+  <aims><p>The human computer interface paradigm has evolved in recent years. No longer is interacting with a computer game necessarily a sedentary activity. Systems such as the EyeToy and Wii now use webcam and remote sensing technology to allow active participation in the game. The goal of the project(s) is to implement a computer game (or if time allows a suite of games) controlled by such means (most likely by webcam but ultimately up to the student). </p><p>The intention here is to create a version of the game of<a href="http://en.wikipedia.org/wiki/Breakout">Breakout</a>that is controlled via webcam or remote sensing. </p><p>Requirements for this project include </p><ul><li>Single player mode</li><li>Multiplayer mode (i.e. two bats).</li><li>Investigation of different algorithms/methods for control and their effect on game playability</li><li>Playable when projected from computer</li><li>Portability, program should be easily moved from one computer to another. Cross-platform compatibility is also desirable.</li><li>Additional features to expand on the basic<a href="http://en.wikipedia.org/wiki/Breakout">Breakout</a>game should be added by the student.</li> </ul>A demonstration of<a href="http://en.wikipedia.org/wiki/Breakout">Breakout</a>can be found<a href="http://www.play.vg/games/10-Breakout.html">here</a>.</aims>
+  <challenges><p>The need to learn to implement new technology, as well as potentially some image processing or remote sensing skills. </p></challenges>
+  <learning-outcomes><p>Understanding image processing/remote sensing, Experience of game programming </p></learning-outcomes>
+  <end-product><p>Complete working game </p></end-product>
+  <timetable>
+    <semester1><p>Design documentation </p><p>Early implementation of prototype, this could be the game controlled by conventional means (i.e. by keyboard) along with some indication of early implementation of the new HCI. </p></semester1>
+    <semester2><p>Report </p><p>Completed Game </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published></published>
+  <note><a href="http://www.play.vg/games/10-Breakout.html">demonstration of Breakout</a></note>
+  </reference></references>
+</project>
+<project label="68abfdfe5565b29fa1679bfcbdf2e808">
+  <title>Gaming with Augmented Human Computer Interface Pong</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p><ul><li>Good knowledge of a programming language (Java, C++, C#, .NET etc.)</li><li>multimedia skills</li><li>knowledge of UML</li><li>capability of understanding new technology</li><li>strong presentation skills.</li> </ul> </p></prerequisites>
+  <aims><p>The human computer interface paradigm has evolved in recent years. No longer is interacting with a computer game necessarily a sedentary activity. Systems such as the EyeToy and Wii now use webcam and remote sensing technology to allow active participation in the game. The goal of the project(s) is to implement a computer game (or if time allows a suite of games) controlled by such means (most likely by webcam but ultimately up to the student). </p><p>The intention here is to create a version of the game of<a href="http://en.wikipedia.org/wiki/Pong">Pong</a>that is controlled via webcam or remote sensing. </p><p>Requirements for this project include </p><ul><li>Single player mode against an intelligent computer player</li><li>Multiplayer competitive functionality (simultaneous or turn-based depending on nature of game).</li><li>Investigation of different algorithms/methods for control and their effect on game playability</li><li>Expansion of control mechanism to multiple games</li><li>Playable when projected from computer</li><li>Portability, program should be easily moved from one computer to another. Cross-platform compatibility is also desirable.</li><li>Additional features to expand on the basic<a href="http://en.wikipedia.org/wiki/Pong">Pong</a>game should be added by the student.</li> </ul></aims>
+  <challenges><p>The need to learn to implement new technology, as well as potentially some image processing or remote sensing skills. </p></challenges>
+  <learning-outcomes><p>Understanding image processing/remote sensing, Experience of game programming </p></learning-outcomes>
+  <end-product><p>Complete working game </p></end-product>
+  <timetable>
+    <semester1><p>Design documentation </p><p>Early implementation of prototype, this could be the game controlled by conventional means (i.e. by keyboard) along with some indication of early implementation of the new HCI. </p></semester1>
+    <semester2><p>Report </p><p>Completed Game </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published></published>
+  <note><a href="http://www.xnet.se/javaTest/jPong/jPong.html">demonstration of Pong</a></note>
+  </reference></references>
+</project>
+<project label="87b43d81499bcc849bc3617548448025">
+  <title>Gaming with Augmented Human Computer Interface Tetris Welltrix</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p><ul><li>Good knowledge of a programming language (Java, C++, C#, .NET etc.)</li><li>multimedia skills</li><li>knowledge of UML</li><li>capability of understanding new technology</li><li>strong presentation skills.</li> </ul> </p></prerequisites>
+  <aims><p>The human computer interface paradigm has evolved in recent years. No longer is interacting with a computer game necessarily a sedentary activity. Systems such as the EyeToy and Wii now use webcam and remote sensing technology to allow active participation in the game. The goal of the project(s) is to implement a computer game (or if time allows a suite of games) controlled by such means (most likely by webcam but ultimately up to the student). </p><p>The intention here is to create a version of the game of Tetris/Welltrix that is controlled via webcam or remote sensing. </p><p>Requirements for this project include </p><ul><li>Single player mode</li><li>Multiplayer mode (i.e. two pieces controlled).</li><li>Investigation of different algorithms/methods for control and their effect on game playability</li><li>Playable when projected from computer</li><li>Portability, program should be easily moved from one computer to another. Cross-platform compatibility is also desirable.</li><li>Additional features to expand on the basic Tetris (or Welltrix, the 3D variant) game should be added by the student.</li> </ul></aims>
+  <challenges><p>The need to learn to implement new technology, as well as potentially some image processing or remote sensing skills. </p></challenges>
+  <learning-outcomes><p>Understanding image processing/remote sensing, Experience of game programming </p></learning-outcomes>
+  <end-product><p>Complete working game </p></end-product>
+  <timetable>
+    <semester1><p>Design documentation </p><p>Early implementation of prototype, this could be the game controlled by conventional means (i.e. by keyboard) along with some indication of early implementation of the new HCI. </p></semester1>
+    <semester2><p>Report </p><p>Completed Game </p></semester2>
+  </timetable>
+  <references>Breakout Wiki Entry360 Breakout</references>
+</project>
+<project label="c0f7c03cbbb1373dd11c79cb926acea0">
+  <title>Promotional Activity Package and Content Creator</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p>Programming skills, interest in multimedia, also (potentially) programming for the internet. </p></prerequisites>
+  <aims><p>The aim of this project is to create a tool that can be used to create promotional application that could be given away on CD-ROM. This application would use video, text, audio and more importantly interactive activities simple (games such as jigsaw puzzles). </p><p>The tool should be created to allow editting and updating of old content and the creation of new content. So for instance you might write an interactive package showing the user round a gym, but another user could write a promotional package for a supermarket using their own graphics, audio, text etc. </p><p>You should also have example content to show off your tool! </p></aims>
+  <challenges><p>This project is very open-ended - the application is specific while the tool is very general. Good organisation and planning will be required by any student undertaking it. </p></challenges>
+  <learning-outcomes><p>A package for playing the game with a computer: either between two humans or a human and a computer player. </p></learning-outcomes>
+  <end-product><p>Promotional package on CD-ROM </p><p>Tool for creation/editting of promotional packages </p></end-product>
+  <timetable>
+    <semester1><p>Prototype. </p><p>Design </p></semester1>
+    <semester2><p>Finished product </p></semester2>
+  </timetable>
+  <references><reference>
+  <author></author>
+  <volume></volume>
+  <published year="1901"></published>
+  <note></note>
+  </reference></references>
+</project>
+<project label="67fa525bc84f15df8b6ed413e50a930b">
+  <title>Statistical Shape Models</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p>Graphic and image processing skills, some mathematics, good programming skills </p></prerequisites>
+  <aims><p>Point Distribution Model is a model for representing the mean geometry of a shape and some statistical modes of geometric variation inferred from a training set of shapes. It relies on Landmark points. </p><p>For instance here are some landmark points you might find on a face:- </p><p> </p><p>Your task for this project would be to implement an Point Distribution Model and apply it to a real life dataset of images. </p></aims>
+  <challenges><p><ul><li>Familiarising oneself with literature - good practice for a student considering a career in research</li><li>Familiarisation with dataset</li> </ul> </p></challenges>
+  <learning-outcomes><p><ul><li>Computer Vision</li><li>2D image manipulation</li><li>Research skills</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software tool to allow demonstration of the principles of a Point Distribution Model. </p></end-product>
+  <timetable>
+    <semester1><p><ul><li>Reading of background material.</li><li>Prototype</li> </ul> </p></semester1>
+    <semester2><p>Completed project + report. </p></semester2>
+  </timetable>
+  <references></references>
+</project>
+<project label="e0816eb6cbb3585c9e1b44f5fea75050">
+  <title>Synthetic Images of Total Hip Replacements</title>
+  <supervisor>
+    <sk223 />
+  </supervisor>
+  <prerequisites><p>Multimedia skills, familiarity with 3D geometry, good programming skills </p></prerequisites>
+  <aims><p>Measurements of<a href="http://en.wikipedia.org/wiki/Hip_replacement">total hip replacements</a>(THRs) are performed on radiographs (colloquially known as x-rays). This is a 2D projection of a 3D scene, thus error is introduced. </p><p>The aim of this project is to create a package that allows the creation of synthetic THR images from a 3D scene created from user entered parameters (such as how far apart the components are) and can estimate the error introduced to measurements performed on these synthetic images due to the projection from 2D to 3D. </p><p>Here is a sample (real) radiograph:- </p><p> </p></aims>
+  <challenges><p><ul><li>Familiarising oneself with THR literature - good practice for a student considering a career in research or working in a multi-disciplinary team</li><li>Understanding the concept of measurements and error estimation</li> </ul> </p></challenges>
+  <learning-outcomes><p><ul><li>3D modelling</li><li>2D projection</li><li>Research skills</li> </ul> </p></learning-outcomes>
+  <end-product><p>A software tool to allow manipulation of 3D scene, produce synthetic images, perform measurements on both synthetic image and 3D scene and compare the measurements. </p><p>Preliminary investigation into magnitude of error introduced by 3D to 2D projection </p></end-product>
+  <timetable>
+    <semester1><p><ul><li>Reading of background material.</li><li>Selection of particular measurements to investigate.</li><li>Prototype of 3D scene.</li> </ul> </p></semester1>
+    <semester2><p>Completed project + report. </p></semester2>
+  </timetable>
+  <references><reference>
+  <author>Stuart Kerrigan</author>
+  <volume>Eccentricity Error Correction for Automated Estimation of Polyethylene Wear after Total Hip Arthroplasty</volume>
+  <published year="2005"></published>
+  <note>Available online at<a href="http://www.cs.le.ac.uk/people/sk223/miua2005.pdf">my website</a>.</note>
+  </reference><reference>
+  <author>Stuart Kerrigan</author>
+  <volume>Automated Assessment of Polyethylene Wear in Cemented Acetabular Components using Anteroposterior Radiographs of Total Hip Replacements, Computerized Medical Imaging and Graphics</volume>
+  <published year="2008"></published>
+  <note></note>
+  </reference></references>
+</project>
+</projects>

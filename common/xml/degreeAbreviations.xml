@@ -1,0 +1,10 @@
+<degreeAbreviations>
+    <degree abreviation='SES' degreecode='MSCOSES'/>
+    <degree abreviation='ASE' degreecode='MSCOSSE'/>
+    <degree abreviation='ADS' degreecode='MSCOSAD'/>
+    <degree abreviation='ACS' degreecode='MSCOSAC' allocateAll='true'/>
+    <degree abreviation='ACM' degreecode='MSCOSCP'/>
+    <degree abreviation='SET' degreecode='MSCOSAS'/>
+    <degree abreviation='WAS' degreecode='MSCOSWA'/>
+    <degree abreviation='SFS' degreecode='MSCOSSF'/>
+</degreeAbreviations>

@@ -1,0 +1,28 @@
+
+<groupSetup>
+    <groups>
+        <group id="group1">
+            <supervisor uid="pyf1"/>
+            <member student="ts158"/>
+            <member student="aw218"/>
+        </group>
+        <group id="group2">
+            <supervisor uid="rmt"/>
+            <member student="abc123"/>
+        </group>
+    </groups>
+    
+
+    <markers>
+        <staff uid="pyf1">
+            <mark group="group1">
+                <deliverable assessmentId="example" componentId="example2"/>
+            </mark>
+        </staff>
+        <staff uid="rlc3">
+            <mark group="group2">
+                <deliverable  assessmentId="example2" componentId="example3"/>
+            </mark>
+        </staff>
+    </markers>
+</groupSetup>

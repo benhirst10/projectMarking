@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="markingScheme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="assessments"/>
+      </xs:sequence>
+      <xs:attribute name="modcode" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="assessments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="assessment"/>
+      </xs:sequence>
+      <xs:attribute name="intake" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="assessment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="component"/>
+      </xs:sequence>
+      <xs:attribute name="excludeFromSpread" type="xs:boolean"/>
+      <xs:attribute name="excludeFromStudentAvailability" type="xs:boolean"/>
+      <xs:attribute name="id" use="required"/>
+      <xs:attribute name="weighting" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="component">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="description"/>
+        <xs:element minOccurs="0" ref="markingGuide"/>
+        <xs:element minOccurs="0" ref="feedback"/>
+        <xs:element minOccurs="0" ref="mark"/>
+      </xs:sequence>
+      <xs:attribute name="groupAssessed" type="xs:boolean"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="replaceProjectTitle" type="xs:boolean"/>
+      <xs:attribute name="weighting" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="markingGuide">
+    <xs:complexType mixed="true">
+      <xs:attribute name="availableToStudents" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="feedback">
+    <xs:complexType>
+      <xs:attribute name="heading" use="required"/>
+      <xs:attribute name="staffonly" type="xs:boolean"/>
+      <xs:attribute name="style" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mark">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="numeric"/>
+        <xs:element maxOccurs="unbounded" ref="choice"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numeric">
+    <xs:complexType>
+      <xs:attribute name="outof" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="choice">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="defaultOption" type="xs:boolean"/>
+          <xs:attribute name="val" use="required" type="xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

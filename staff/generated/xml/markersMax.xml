@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markersMax>
+  <marker uid="jlb" supervisorMax="1" secondMarkerMax="0"/>
+  <marker uid="dd" supervisorMax="0" secondMarkerMax="2"/>
+  <marker uid="bmh2" supervisorMax="2" secondMarkerMax="1"/>
+  <marker uid="srh" supervisorMax="1" secondMarkerMax="1"/>
+</markersMax>

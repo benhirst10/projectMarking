@@ -1,0 +1,29 @@
+<studentPreferences>
+    <studentChoice uid='aa355'>
+        <preferences>
+            <pref rank='1' projid='ab220ef4498aff1e5a7b8f39c9be664b'/>
+            <pref rank='2' projid='dfb4b64ea777e3da350b3ed7159f704e'/>
+            <pref rank='3' projid='354a67f5e4d49471af86669a6209c98f'/>
+            <pref rank='4' projid='3afad1cf4fbb56906aded3563273e335'/>
+        </preferences>
+        <ownproject>
+            <supervisor uid='sk223'/>
+            <title>Test Project</title>
+            <description>Test</description>
+        </ownproject>
+    </studentChoice>
+      <studentChoice uid='tg75'>
+        <preferences>
+            <pref rank='1' projid='83d4c0168e05dbbd4d62a5df712ed87b'/>
+            <pref rank='2' projid='3afad1cf4fbb56906aded3563273e335'/>
+            <pref rank='3' projid='cfe3584be18dee6635a7a792a11a1553'/>
+            <pref rank='4' projid='3afad1cf4fbb56906aded3563273e335'/>
+        </preferences>
+        <ownproject>
+            <supervisor uid='ak155'/>
+            <title>Test Project</title>
+            <description>Test</description>
+        </ownproject>
+    </studentChoice>  
+</studentPreferences>
+    

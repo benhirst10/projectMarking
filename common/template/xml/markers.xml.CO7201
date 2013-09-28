@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<markers>
+  <marker uid="ab373" firstname="Artur" surname="Boronat" title="Dr"/>
+  <marker uid="te17" firstname="Thomas" surname="Erlebach" title="Prof"/>
+  <marker uid="jwf4" firstname="Jose" surname="Fiadeiro" title="Prof"/>
+  <marker uid="pyf1" firstname="Stanley" surname="Fung" title="Dr"/>
+  <marker uid="rh122" firstname="Heckel" surname="Reiko" title="Prof"/>
+  <marker uid="mh55" firstname="Michael" surname="Hoffmann" title="Dr"/>
+  <marker uid="sk223" firstname="Stuart" surname="Kerrigan" title="Dr"/>
+  <marker uid="ak155" firstname="Alexander" surname="Kurz" title="Dr"/>
+  <marker uid="np183" firstname="Nir" surname="Piterman" title="Dr"/>
+  <marker uid="ir45" firstname="Igor" surname="Razgon" title="Dr"/>
+  <marker uid="rr29" firstname="Rajeev" surname="Raman" title="Prof"/>
+  <marker uid="srm13" firstname="Stephan" surname="Reiff-Marganiec" title="Dr"/>
+  <marker uid="tr61" firstname="Tom" surname="Ridge" title="Dr"/>
+  <marker uid="ms491" firstname="Monika" surname="Solanki" title="Dr"/>
+  <marker uid="et52" firstname="Tousto" surname="Emilio" title="Dr"/>
+  <marker uid="iu3" firstname="Irek" surname="Ulidowski" title="Dr"/> 
+  <marker uid="fdv1" firstname="Fer-Jan" surname="De Vries" title="Dr"/>
+  <marker uid="nw91" firstname="Neil" surname="Walkinshaw" title="Dr"/>
+</markers>

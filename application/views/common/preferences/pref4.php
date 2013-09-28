@@ -1,0 +1,1 @@
+<td><INPUT type='radio' name='colfourthchoice' value='<?=$label?>' <?=$checked?> onclick='checkradio()'></td>

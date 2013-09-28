@@ -1,0 +1,167 @@
+<markingScheme modcode="CO3015">   
+  <assessments intake='undergraduate'> 
+    
+    <assessment id='Description and Plan' weighting='3'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment>
+
+
+    <assessment id='1st Interview' weighting='5'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment> 
+
+
+    <assessment id='Interim Report' weighting='10'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment>    
+    
+    <assessment id='2nd Interview' weighting='5'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment> 
+    
+    <assessment id='Final Report' weighting='20'>
+      <component id='OverallPresentation' weighting='10'>
+        <description>Overall Presentation</description>
+        <feedback heading='Core' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>        
+      </component>
+      
+      <component id='IntroAimsObjChallenges' weighting='10'>
+        <description>Introduction, Aims, Objectives and Challenges</description>
+        <feedback heading='Introduction, Aims, Objectives and Challenges' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>        
+      </component>
+      
+       <component id='TheoryToolsTechnAndMethods' weighting='50'>
+          <description>Theory, Tools, Techniques and Methods</description>
+        <feedback heading='Theory, Tools, Techniques and Methods' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>        
+      </component> 
+      
+        <component id='Literature' weighting='30'>
+          <description>Literature</description>
+        <feedback heading='Literature ' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>        
+      </component>   
+      
+     
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>        
+    </assessment>
+    
+     
+     <assessment id='Viva' weighting='14'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment>    
+
+
+    <assessment id='Effort and Organisation Throughout Project' weighting='5'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment>  
+
+
+    <assessment id='End Product (Software)' weighting='10'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment>  
+    
+    <assessment id='Technical Achievement' weighting='28'>
+      <component id='Comments' weighting='1'>
+        <description>Comments</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+
+      <component id='tutorComments'>
+        <description>Tutor Comments</description>
+        <feedback heading='Tutor Comments' staffonly='true' style='textarea'/>
+      </component>
+    </assessment>  
+ </assessments>    
+</markingScheme>
+

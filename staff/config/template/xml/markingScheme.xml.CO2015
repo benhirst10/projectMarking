@@ -1,0 +1,254 @@
+<markingScheme modcode="CO2015">   
+  <assessments intake='undergraduate'> 
+    
+    <assessment id='Inception Phase - Project Objectives' weighting='10'>
+      <component id='businessGoals' weighting='5' groupAssessed='true'>
+        <description>business goals (informal description)</description>
+        <feedback heading='business goals' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+      <component id='activityDiagrams' weighting='20' groupAssessed='true'>
+        <description>activity diagrams (business processes)</description>
+        <feedback heading='activity diagrams' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>      
+      
+       <component id='preliminaryUseCase' weighting='20' groupAssessed='true'>
+        <description>Preliminary Use Case Diagram</description>
+        <feedback heading='Preliminary Use Case Diagram' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>  
+            
+       <component id='scenarioDescriptions' weighting='25' groupAssessed='true'>
+        <description>Scenario Descriptions</description>
+        <feedback heading='Scenario Descriptions' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>   
+           
+       <component id='riskAnalysis' weighting='10' groupAssessed='true'>
+        <description>Risk Analysis</description>
+        <feedback heading='Risk Analysis' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>         
+
+       <component id='projectPlan' weighting='20' groupAssessed='true'>
+        <description>Project Plan</description>
+        <feedback heading='Project Plan' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>  
+      
+        <component id='structurePresentation' weighting='5' groupAssessed='true'>
+        <description>Project Plan</description>
+        <feedback heading='Project Plan' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>       
+      
+    </assessment>
+
+    <assessment id='Elaboration Phase' weighting='20'>
+    
+      <component id='updatedUseCase' weighting='10' groupAssessed='true'>
+        <description>updated use case diagram and scenarios for all new or modified use cases</description>
+        <feedback heading='updated use case diagram and scenarios for all new or modified use cases' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+      <component id='highLevelArchitecture' weighting='20' groupAssessed='true'>
+        <description>high-level architecture and technology rationale</description>
+        <feedback heading='high-level architecture and technology rationale' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+      <component id='protocolDesign' weighting='20' groupAssessed='true'>
+        <description>protocol design (sequence diagrams)</description>
+        <feedback heading='protocol design (sequence diagrams)' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>     
+       
+      <component id='classDiagram' weighting='20'  groupAssessed='true'>
+        <description>class diagram of the problem domain</description>
+        <feedback heading='class diagram of the problem domain' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>       
+      
+        <component id='initialPrototype' weighting='20' groupAssessed='true'>
+        <description>initial prototype</description>
+        <feedback heading='initial prototype' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>     
+               
+       <component id='riskAnalysisProjectPlan' weighting='5'  groupAssessed='true'>
+        <description>update of risk analysis and project plan</description>
+        <feedback heading='update of risk analysis and project plan' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>  
+         
+       <component id='structurePresentation' weighting='5' groupAssessed='true'>
+        <description>structure and presentation</description>
+        <feedback heading='structure and presentation' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>  
+    </assessment>    
+    
+    <assessment id='Construction Phase - Iteration 1' weighting='20'>
+      <component id='scenarioUseCase' weighting='10'  groupAssessed='true'>
+        <description>complete scenario descriptions for use cases</description>
+        <feedback heading='complete scenario descriptions for use cases' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+       <component id='testPlan' weighting='20' groupAssessed='true'>
+        <description>test plan</description>
+        <feedback heading='test plan' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+       <component id='revisedSoftwareArchitecture' weighting='10'  groupAssessed='true'>
+        <description>revised software architecture and design</description>
+        <feedback heading='revised software architecture and design' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+       <component id='prototype' weighting='50' groupAssessed='true'>
+        <description>prototype with usable GUI, implementing 30% of use cases</description>
+        <feedback heading='prototype with usable GUI, implementing 30% of use cases' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>    
+        
+       <component id='riskAnalysisProjectPlan' weighting='5' groupAssessed='true'>
+        <description>update of risk analysis and project plan</description>
+        <feedback heading='update of risk analysis and project plan' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>      
+          
+        <component id='structurePresentation' weighting='5' groupAssessed='true'>
+        <description>structure and presentation</description>
+        <feedback heading='structure and presentation' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>       
+      
+    </assessment>    
+    
+    <assessment id='Construction Phase - Iteration 2' weighting='20'>
+      <component id='implementationDocs' weighting='25' groupAssessed='true'>
+        <description>implementation documentation</description>
+        <feedback heading='Comments' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+      <component id='qualityDocs' weighting='15' groupAssessed='true'>
+        <description>quality assessment documentation</description>
+        <feedback heading='quality assessment documentation' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+      <component id='commentsCodeStructure' weighting='10' groupAssessed='true'>
+        <description>comments and code structure</description>
+        <feedback heading='comments and code structure' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+       <component id='evaluationFutureIterations' weighting='50'>
+        <description>critical evaluation and a vision for future iterations</description>
+        <feedback heading='critical evaluation and a vision for future iterations' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>    
+       
+    </assessment> 
+    
+    <assessment id='Transition Phase Presentation Demo' weighting='20'>
+      <component id='productFunctionality' weighting='40' groupAssessed='true'>
+        <description>product functionality</description>
+        <feedback heading='product functionality' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>
+      
+       <component id='gui' weighting='25' groupAssessed='true'>
+        <description>GUI and external qualities</description>
+        <feedback heading='GUI and external qualities' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>     
+      
+       <component id='presentation' weighting='10' groupAssessed='true'>
+        <description>presentation content and structure</description>
+        <feedback heading='presentation content and structure' style='textarea'/>
+        <mark>          
+            <numeric outof='100'/>                
+        </mark>  
+      </component>     
+      
+      <component id='presntationDelivery' weighting='25'>
+        <description>presentation delivery</description>
+        <feedback heading='presentation delivery' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>        
+      </component>            
+
+    </assessment> 
+    
+    <assessment id='Participation in supervisor meetings' weighting='10'>
+      <component id='participation' weighting='1'>
+        <description>participation in supervisor meetings, delivery of minutes and self-certification forms</description>
+        <feedback heading='participation in supervisor meetings, delivery of minutes and self-certification forms' style='textarea'/>                                        
+        <mark>          
+            <numeric outof='100'/>                     
+        </mark>        
+      </component>
+    </assessment>  
+ </assessments>    
+</markingScheme>
+

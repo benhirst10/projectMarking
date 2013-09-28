@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<studentlist>
+  <student uid="std1" forenames="Joe" surname="Blogs" candidate_number="099999991" degreecode="BSCOSCO"/>
+  <student uid="std2" forenames="John" surname="Doe" candidate_number="099999992" degreecode="BSCOWMJ"/>
+  <student uid="std3" forenames="Mark" surname="Challa" candidate_number="099999993" degreecode="BSCOSCO/S"/>
+  <student uid="std4" forenames="Thomas" surname="Challiflour" candidate_number="099999994" degreecode="BECOSCG"/>
+
+</studentlist>

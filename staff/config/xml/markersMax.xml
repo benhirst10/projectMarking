@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<markersMax>
+  <marker uid="ak155" supervisorMax="7" secondMarkerMax="7"/>
+  <marker uid="ab373" supervisorMax="2" secondMarkerMax="2"/>
+  <marker uid="fdv1" supervisorMax="2" secondMarkerMax="1"/>
+  <marker uid="iu3" supervisorMax="4" secondMarkerMax="4"/>
+  <marker uid="mh55" supervisorMax="3" secondMarkerMax="3"/>
+  <marker uid="ms491" supervisorMax="5" secondMarkerMax="8"/>
+  <marker uid="pyf1"  supervisorMax="4" secondMarkerMax="4"/>
+  <marker uid="sk223" supervisorMax="11" secondMarkerMax="11"/>
+  <marker uid="nw91" supervisorMax="3" secondMarkerMax="3"/>
+  <marker uid="ir45" supervisorMax="3" secondMarkerMax="2"/>
+ <marker uid="piterman" supervisorMax="3" secondMarkerMax="2"/>
+ <marker uid="jwf4" supervisorMax="1" secondMarkerMax="0"/>
+<marker uid="lc19"  supervisorMax="0" secondMarkerMax="0"/>
+<marker uid="bmh2" supervisorMax="1" secondMarkerMax="1"/>
+</markersMax>
